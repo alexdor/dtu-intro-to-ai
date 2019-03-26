@@ -16,27 +16,7 @@ class Mastermind:
 
     # calculate the black/white pegs for a guess
     def guess(self, combination, goal):
-        temp_goal = goal[:]
-        black = 0
-        for i in range(len(temp_goal)):
-            if combination[i] == temp_goal[i]:
-                black += 1
-        correct_colors = 0
-        matched_combo = [0] * 4
-        matched_goal = [0] * 4
-        for m in range(4):
-            for n in range(4):
-                if (
-                    (temp_goal[n] == combination[m])
-                    and (matched_goal[n] == 0)
-                    and (matched_combo[m] == 0)
-                ):
-                    correct_colors += 1
-                    matched_goal[n] += 1
-                    matched_combo[m] += 1
-        # black pegs count into the correct colors calculation
-        # so we just subtract the 2 to find white
-        white = correct_colors - black
+        white,black = get_white_and_black(combination,goal)
         answer = []
         answer += list(itertools.repeat("B", black))
         answer += list(itertools.repeat("W", white))
@@ -47,7 +27,21 @@ class Mastermind:
             self.win = True
         return answer
 
+def get_white_and_black(combination,tested_code):
+    black = sum(
+        1
+        for index in range(len(tested_code))
+        if combination[index] == tested_code[index]
+    )
+    correct_colors = 0
 
+    tmp = list(combination[:])
+    for i in range(4):
+        if tested_code[i] in tmp:
+            correct_colors += 1
+            tmp.remove(tested_code[i])
+
+    return correct_colors - black, black
 # GAME SOLVING FUNCTIONS STARTING HERE
 
 # perform minimax algorithm to dataset
@@ -62,26 +56,7 @@ def do_minimax(array):
                 combination = array[0:4, i]
                 if array[4, i] == 1:
                     temp_goal = array[0:4, j]
-                    black = 0
-                    for k in range(len(temp_goal)):
-                        if array[k, i] == temp_goal[k]:
-                            black += 1
-                    correct_colors = 0
-                    matched_combo = [0] * 4
-                    matched_goal = [0] * 4
-                    for m in range(4):
-                        for n in range(4):
-                            if (
-                                (temp_goal[n] == combination[m])
-                                and (matched_goal[n] == 0)
-                                and (matched_combo[m] == 0)
-                            ):
-                                correct_colors += 1
-                                matched_goal[n] += 1
-                                matched_combo[m] += 1
-                    # black pegs count into the correct colors calculation
-                    # so we just subtract the 2 to find white
-                    white = correct_colors - black
+                    white,black = get_white_and_black(combination, temp_goal)
 
                     # calculation of remaining combinations
                     if (white == 0) and (black == 4):
@@ -126,43 +101,24 @@ def update_solutions_dataset(array, tested_code, ground_truth):
 
     # determine black and white pegs for all codes
     for i in range(space_size):
-        combination = array[0:4, i]
-        black = 0
-        for k in range(len(tested_code)):
-            if array[k, i] == tested_code[k]:
-                black += 1
-        correct_colors = 0
-        matched_combo = [0] * 4
-        matched_tested_code = [0] * 4
-        for m in range(4):
-            for n in range(4):
-                if (
-                    (tested_code[n] == combination[m])
-                    and (matched_tested_code[n] == 0)
-                    and (matched_combo[m] == 0)
-                ):
-                    correct_colors += 1
-                    matched_tested_code[n] += 1
-                    matched_combo[m] += 1
-        # black pegs count into the correct colors calculation
-        # so we just subtract the 2 to find white
-        white = correct_colors - black
+        combination = array[0:4,i]
+        white, black = get_white_and_black(combination,tested_code)
         # set cell to 0 if solution is incompatible with last feedback (black/white combination)
-        if (ground_truth_white != white) or (ground_truth_black != black):
-            array[4, i] = 0  # 0 means code is not part of solution set anymore
 
-
-# disable used code in dataset array
-def update_dataset(array, code):
-    for i in range(space_size):
         if (
-            (array[0, i] == code[0])
-            and (array[1, i] == code[1])
-            and (array[2, i] == code[2])
-            and (array[3, i] == code[3])
-        ):
+            (ground_truth_white != white) or (ground_truth_black != black)
+        ) or np.array_equal(combination, tested_code):
             array[4, i] = 0  # 0 means code is not part of solution set anymore
-            array[5, i] = 0  # 0 means code is not part of unused set anymore
+
+    # Magic math to calculate unused index
+    unused_index = (
+        (tested_code[0] - 1) * 216
+        + (tested_code[1] - 1) * 36
+        + (tested_code[2] - 1) * 6
+        + tested_code[3]
+        - 1
+    )
+    array[5, unused_index] = 0  # 0 means code is not part of unused set anymore
 
 
 # initialize array with all possible combinations and information if part of solution set and information if part of unused set
@@ -184,19 +140,17 @@ for a in range(1, 7):
 game = Mastermind()
 
 # initial guess
-combo = np.array([2, 2, 4, 5])
+combo = np.array([1,1,2,2])
 
 # start the turn clock, check for a win after each round
 while game.turn_counter <= 50 and not game.win:
     # requires a string of ex. "1 1 1 1" to parse correctly.
     print("Give me a combination of the elements 1,2,3,4,5,6. Ya fucking idiot.")
-    # combo=input("1 line, 4 numbers, 3 spaces. It'll break if you don't do that exactly.").split()
-    combo = list(map(int, combo))
     print(combo)
     # check if the guess is the valid format
     # don't uptick the turn counter for an invalid format
     # i'm not that big of an asshole
-    if len(combo) != 4 or set(combo).issubset(game.colors) != True:
+    if len(combo) != 4 or not set(combo).issubset(game.colors):
         print(
             "Invalid guess, moron. Make sure you're guessing four items from the list (e.g. '5 5 4 3')"
         )
@@ -215,7 +169,6 @@ while game.turn_counter <= 50 and not game.win:
     if m == 1:
         combo = number_set[0:4, buffer]
     else:
-        update_dataset(number_set, combo)
         combo = do_minimax(number_set)
 # if we leave that game loop, print the win/loss statement
 if game.win:
