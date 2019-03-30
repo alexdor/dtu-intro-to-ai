@@ -1,0 +1,7748 @@
+[
+  { "result": true, "turns": 4, "goal": [1, 1, 1, 1], "time": 2.40674759 },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 1, 2],
+    "time": 1.3335036396000006
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 1, 3],
+    "time": 2.4585211661999997
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 1, 4],
+    "time": 2.3331342342000005
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 1, 5],
+    "time": 1.9514966688000015
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 1, 6],
+    "time": 2.3481971928000034
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 2, 1],
+    "time": 1.3289741934000006
+  },
+  {
+    "result": true,
+    "turns": 1,
+    "goal": [1, 1, 2, 2],
+    "time": 0.39100359139999624
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 2, 3],
+    "time": 1.3114739746000026
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 2, 4],
+    "time": 1.3178550247999994
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 2, 5],
+    "time": 1.7059964028000025
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 2, 6],
+    "time": 1.7184283319999936
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 3, 1],
+    "time": 2.3317571577999985
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 3, 2],
+    "time": 1.3168560887999974
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 3, 3],
+    "time": 2.353242486199997
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [1, 1, 3, 4],
+    "time": 1.4989679788000045
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 3, 5],
+    "time": 1.9298036474000013
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 3, 6],
+    "time": 1.9424104859999942
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 4, 1],
+    "time": 2.3815686163999943
+  },
+  { "result": true, "turns": 4, "goal": [1, 1, 4, 2], "time": 1.3195741086 },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 1, 4, 3],
+    "time": 2.0354178403999983
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 4, 4],
+    "time": 2.3187989943999923
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 4, 5],
+    "time": 2.382620994000001
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 4, 6],
+    "time": 2.374881075799999
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 5, 1],
+    "time": 2.419718794399995
+  },
+  { "result": true, "turns": 5, "goal": [1, 1, 5, 2], "time": 1.7105532052 },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 5, 3],
+    "time": 2.3738824286000066
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 5, 4],
+    "time": 2.3257542920000107
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 5, 5],
+    "time": 2.3505051959999945
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 5, 6],
+    "time": 2.344008728799986
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 6, 1],
+    "time": 2.334131227399996
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 6, 2],
+    "time": 1.7126407776000179
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 6, 3],
+    "time": 2.3743666894000057
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 6, 4],
+    "time": 2.341241300199999
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 6, 5],
+    "time": 2.3251162197999973
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 1, 6, 6],
+    "time": 2.326045117600006
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 1, 1],
+    "time": 1.414613178000002
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [1, 2, 1, 2],
+    "time": 0.8113583316000131
+  },
+  {
+    "result": true,
+    "turns": 2,
+    "goal": [1, 2, 1, 3],
+    "time": 0.9926004321999926
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 1, 4],
+    "time": 1.4232367994000015
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 1, 5],
+    "time": 1.815401971000017
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 1, 6],
+    "time": 1.8148891871999921
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [1, 2, 2, 1],
+    "time": 0.7972079931999815
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 2, 2],
+    "time": 1.2949378822000086
+  },
+  {
+    "result": true,
+    "turns": 2,
+    "goal": [1, 2, 2, 3],
+    "time": 0.9663941600000043
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 2, 4],
+    "time": 1.374247056999991
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 2, 5],
+    "time": 1.374373707599989
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 2, 6],
+    "time": 1.3797513859999981
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 3, 1],
+    "time": 1.4055995766000025
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 3, 2],
+    "time": 1.3583847967999987
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 3, 3],
+    "time": 2.9304413224000085
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 3, 4],
+    "time": 2.4555093810000246
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [1, 2, 3, 5],
+    "time": 2.5161567816000003
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 3, 6],
+    "time": 2.9148671290000037
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 4, 1],
+    "time": 1.4196535133999988
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 4, 2],
+    "time": 1.3893891982000242
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 4, 3],
+    "time": 3.1584676947999926
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 4, 4],
+    "time": 2.9213000746000035
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 4, 5],
+    "time": 3.0552550691999842
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 4, 6],
+    "time": 2.657274718000008
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 5, 1],
+    "time": 1.4098329348000107
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 5, 2],
+    "time": 1.379101865199982
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 5, 3],
+    "time": 3.06745058099998
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 5, 4],
+    "time": 2.5201757159999714
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 5, 5],
+    "time": 2.9864804576000097
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 5, 6],
+    "time": 2.997919459600007
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 6, 1],
+    "time": 1.3994888230000015
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 2, 6, 2],
+    "time": 1.3903728438000371
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 6, 3],
+    "time": 3.058842297000001
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 6, 4],
+    "time": 2.918616878800003
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 6, 5],
+    "time": 2.9872981694000145
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 2, 6, 6],
+    "time": 2.9890442041999905
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 1, 1],
+    "time": 3.073748277599998
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 3, 1, 2],
+    "time": 1.3954905587999975
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 1, 3],
+    "time": 3.0854753567999977
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 3, 1, 4],
+    "time": 2.5262591165999764
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [1, 3, 1, 5],
+    "time": 2.660904563400004
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 1, 6],
+    "time": 3.061109607599974
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 3, 2, 1],
+    "time": 1.3819524441999875
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [1, 3, 2, 2],
+    "time": 0.9036811902000181
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 2, 3],
+    "time": 2.466989314999978
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 3, 2, 4],
+    "time": 1.904527162599993
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 2, 5],
+    "time": 2.4054069767999864
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 2, 6],
+    "time": 2.4038516001999826
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 3, 1],
+    "time": 2.909436954600005
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 3, 3, 2],
+    "time": 1.9163474233999978
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 3, 3],
+    "time": 3.315254842999957
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 3, 4],
+    "time": 3.191570273000025
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 3, 5],
+    "time": 3.3048490044000345
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 3, 6],
+    "time": 3.3079093247999936
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 3, 4, 1],
+    "time": 2.462023063400011
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 3, 4, 2],
+    "time": 1.8883407329999726
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 4, 3],
+    "time": 3.191102461999981
+  },
+  {
+    "result": true,
+    "turns": 2,
+    "goal": [1, 3, 4, 4],
+    "time": 2.3566792695999994
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 4, 5],
+    "time": 3.209392326999955
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 4, 6],
+    "time": 3.221579277600017
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 5, 1],
+    "time": 3.0640937182000014
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 5, 2],
+    "time": 2.409000801999946
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 5, 3],
+    "time": 3.3095270750000507
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 5, 4],
+    "time": 3.2042868971999723
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 5, 5],
+    "time": 3.303026278199968
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 5, 6],
+    "time": 3.3319483522000155
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 6, 1],
+    "time": 3.1297737565999797
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 6, 2],
+    "time": 2.3993264006000117
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 6, 3],
+    "time": 3.295009563799977
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 6, 4],
+    "time": 3.2073669811999936
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 6, 5],
+    "time": 3.294397052799968
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 3, 6, 6],
+    "time": 3.3121968028000084
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 1, 1],
+    "time": 3.053104920000078
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 1, 2],
+    "time": 1.4016613271999632
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 1, 3],
+    "time": 2.4759761854000315
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 1, 4],
+    "time": 2.920266802399965
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 1, 5],
+    "time": 3.047089433600013
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 1, 6],
+    "time": 3.056619797999929
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 2, 1],
+    "time": 1.3769266039999821
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 2, 2],
+    "time": 1.2941923511999902
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 2, 3],
+    "time": 1.8915560897999513
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 2, 4],
+    "time": 1.907077060399979
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 2, 5],
+    "time": 2.3943043182000565
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 2, 6],
+    "time": 2.4133680657999776
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 3, 1],
+    "time": 2.4794408391999694
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 3, 2],
+    "time": 1.8758471937999275
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 3, 3],
+    "time": 3.283500596000067
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 3, 4],
+    "time": 2.7673064073999285
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 3, 5],
+    "time": 3.266852340600053
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 3, 6],
+    "time": 3.3880067591999703
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 4, 1],
+    "time": 3.071206815000005
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 4, 2],
+    "time": 2.3927611986000104
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 4, 3],
+    "time": 2.7715724125999714
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 4, 4],
+    "time": 3.2146760953999545
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 4, 5],
+    "time": 2.8537585789999866
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 4, 6],
+    "time": 3.2151179614001193
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 5, 1],
+    "time": 3.080114380200075
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 5, 2],
+    "time": 2.013342498599968
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 5, 3],
+    "time": 2.9485033797999676
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 4, 5, 4],
+    "time": 2.8410912886000004
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 5, 5],
+    "time": 3.4289953433999925
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 5, 6],
+    "time": 3.439101022399927
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 6, 1],
+    "time": 3.111682820399983
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 6, 2],
+    "time": 2.4022009662000072
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 6, 3],
+    "time": 3.2918093818000216
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 6, 4],
+    "time": 3.215428062999945
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 6, 5],
+    "time": 3.4378526447999773
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 4, 6, 6],
+    "time": 3.3983945762000074
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 1, 1],
+    "time": 3.0473948112000016
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 1, 2],
+    "time": 1.3810608542000409
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 1, 3],
+    "time": 3.1180162942000154
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 1, 4],
+    "time": 2.927730416600025
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 1, 5],
+    "time": 3.0437171244000183
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [1, 5, 1, 6],
+    "time": 2.6283989001999544
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 2, 1],
+    "time": 1.3658555258000433
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 2, 2],
+    "time": 1.311126093799976
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 2, 3],
+    "time": 2.4230660559999704
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 2, 4],
+    "time": 1.9081623735999984
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 2, 5],
+    "time": 2.35701296240004
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 2, 6],
+    "time": 2.3721875580000416
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 3, 1],
+    "time": 2.5121872431999237
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 3, 2],
+    "time": 1.9114982382000107
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 3, 3],
+    "time": 3.4290063484000712
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 3, 4],
+    "time": 3.2298448368000208
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 3, 5],
+    "time": 3.410810758600019
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 3, 6],
+    "time": 3.4652108967999538
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 4, 1],
+    "time": 3.0919660212000055
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 4, 2],
+    "time": 2.4230432517999816
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 4, 3],
+    "time": 3.22057346900001
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 5, 4, 4],
+    "time": 2.820639801200014
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 4, 5],
+    "time": 3.303360439800008
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 4, 6],
+    "time": 3.3725906800000303
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 5, 1],
+    "time": 3.065811644400037
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 5, 2],
+    "time": 2.370920058399997
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 5, 3],
+    "time": 3.441437443199902
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 5, 4],
+    "time": 3.3044900727999447
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 5, 5],
+    "time": 3.3703787206000926
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 5, 6],
+    "time": 3.3877571340000943
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 6, 1],
+    "time": 3.062600635199942
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 6, 2],
+    "time": 2.364954294800009
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 6, 3],
+    "time": 3.4435322756001367
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 6, 4],
+    "time": 3.3662676916001146
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 6, 5],
+    "time": 3.8082348969999655
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 5, 6, 6],
+    "time": 3.470282944399969
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 1, 1],
+    "time": 3.0770254825998564
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 6, 1, 2],
+    "time": 1.4041176052000082
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 1, 3],
+    "time": 3.0589535141999478
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 1, 4],
+    "time": 2.9273116166000364
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 1, 5],
+    "time": 3.0447193974000584
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 1, 6],
+    "time": 3.051587388400094
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 6, 2, 1],
+    "time": 1.3767081766000047
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 6, 2, 2],
+    "time": 1.2971854438001174
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 2, 3],
+    "time": 2.470699902800061
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 6, 2, 4],
+    "time": 1.9424774033997891
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 2, 5],
+    "time": 2.378919036800107
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 2, 6],
+    "time": 2.365429570800097
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 3, 1],
+    "time": 2.9559322604000045
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 6, 3, 2],
+    "time": 1.9031690733999311
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 3, 3],
+    "time": 3.4142740238000444
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 3, 4],
+    "time": 3.231988802199976
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 3, 5],
+    "time": 3.430788801200015
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 3, 6],
+    "time": 3.4068729352000444
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 4, 1],
+    "time": 3.0770424482000633
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 4, 2],
+    "time": 2.4031427085999892
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 4, 3],
+    "time": 3.234384095399946
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 4, 4],
+    "time": 3.1921578766000493
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 4, 5],
+    "time": 3.3015748611999696
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 4, 6],
+    "time": 3.3002461540000696
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 5, 1],
+    "time": 3.046396603199901
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 5, 2],
+    "time": 2.364756005200161
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 5, 3],
+    "time": 3.4405152204000844
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 5, 4],
+    "time": 3.291066469799989
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 5, 5],
+    "time": 3.405774215800102
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 5, 6],
+    "time": 3.4311734345999865
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 6, 1],
+    "time": 3.05392738419996
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 6, 2],
+    "time": 2.363949602399862
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 6, 3],
+    "time": 3.4225676388000466
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 6, 4],
+    "time": 3.3009921679999024
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [1, 6, 6, 5],
+    "time": 3.375229099399803
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [1, 6, 6, 6],
+    "time": 2.983902794000096
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 1, 1],
+    "time": 1.4147451173999799
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 1, 1, 2],
+    "time": 0.7904225803998998
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 1, 3],
+    "time": 1.390818510200188
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 1, 4],
+    "time": 1.406702413200037
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 1, 5],
+    "time": 1.8132771793999383
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 1, 6],
+    "time": 1.8207146141999146
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 1, 2, 1],
+    "time": 0.7930070606000299
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 2, 2],
+    "time": 1.7014498628001093
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 2, 3],
+    "time": 1.375827904400103
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 2, 4],
+    "time": 1.387991367199993
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 2, 5],
+    "time": 1.387603319200025
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 2, 6],
+    "time": 1.3809665953999684
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 1, 3, 1],
+    "time": 0.9912356724000346
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 1, 3, 2],
+    "time": 0.9685172906000844
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 3, 3],
+    "time": 2.9054339930000426
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 3, 4],
+    "time": 2.4544726583999363
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 3, 5],
+    "time": 2.5264528943999722
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 3, 6],
+    "time": 2.9031442572000743
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 4, 1],
+    "time": 1.3985569503999613
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 4, 2],
+    "time": 1.3687278447999234
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 4, 3],
+    "time": 3.0737480691998824
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 4, 4],
+    "time": 2.917361692399845
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 4, 5],
+    "time": 3.0643680426000173
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 4, 6],
+    "time": 3.1359392708000087
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 5, 1],
+    "time": 1.4045940464000524
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 5, 2],
+    "time": 1.3754215140001178
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 5, 3],
+    "time": 3.0539357460000245
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 5, 4],
+    "time": 2.5260246579999146
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 5, 5],
+    "time": 2.972440193799957
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 5, 6],
+    "time": 2.576947191999989
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 6, 1],
+    "time": 1.3960014484000567
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 1, 6, 2],
+    "time": 1.378238959200098
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 6, 3],
+    "time": 3.055492907000007
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 6, 4],
+    "time": 2.9109507076000227
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 6, 5],
+    "time": 2.9736323510001057
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 1, 6, 6],
+    "time": 2.97964714760019
+  },
+  {
+    "result": true,
+    "turns": 2,
+    "goal": [2, 2, 1, 1],
+    "time": 0.39290489660006644
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 1, 2],
+    "time": 1.7879189624000902
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 2, 1, 3],
+    "time": 0.8750163667999914
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 1, 4],
+    "time": 1.2732011224000417
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 1, 5],
+    "time": 1.2689302322000913
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 1, 6],
+    "time": 1.2683651026000917
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 2, 1],
+    "time": 1.8086094523999237
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 2, 2],
+    "time": 2.3321224882000933
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 2, 3],
+    "time": 3.0858524522001063
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 2, 4],
+    "time": 3.0002361791999648
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 2, 5],
+    "time": 2.953835898000034
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 2, 6],
+    "time": 2.965012189600111
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 3, 1],
+    "time": 1.2695606553998915
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 3, 2],
+    "time": 3.0858875204001377
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 3, 3],
+    "time": 2.272941305800214
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 3, 4],
+    "time": 1.7778483718000644
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 3, 5],
+    "time": 2.295369346000098
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 3, 6],
+    "time": 2.2723593879999497
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 4, 1],
+    "time": 1.2686223020000398
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 4, 2],
+    "time": 3.091678627999954
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 4, 3],
+    "time": 1.7906877070001428
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 4, 4],
+    "time": 1.7709583486000156
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 4, 5],
+    "time": 2.2350649361999784
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 4, 6],
+    "time": 2.2381392560001587
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 5, 1],
+    "time": 1.2713326437999968
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 5, 2],
+    "time": 2.9703481875998476
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 5, 3],
+    "time": 2.2652538721999917
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 5, 4],
+    "time": 2.2378979748000347
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 5, 5],
+    "time": 1.853300715399928
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 5, 6],
+    "time": 2.249021714599985
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 6, 1],
+    "time": 1.265408885800025
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 6, 2],
+    "time": 2.9707480944000055
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 6, 3],
+    "time": 2.2727602219999428
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 6, 4],
+    "time": 2.240661590800028
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 2, 6, 5],
+    "time": 2.2423906376000557
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 2, 6, 6],
+    "time": 1.8487277517999245
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 3, 1, 1],
+    "time": 0.8778311677999227
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 3, 1, 2],
+    "time": 1.4078048356001092
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 3, 1, 3],
+    "time": 1.8631587088000743
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 3, 1, 4],
+    "time": 1.7613176818001193
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 3, 1, 5],
+    "time": 1.8406902189999528
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 3, 1, 6],
+    "time": 1.8515986022001016
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 3, 2, 1],
+    "time": 1.4501484473998971
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 2, 2],
+    "time": 2.4291155728001286
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 2, 3],
+    "time": 3.095420675999958
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 2, 4],
+    "time": 3.0486049064000325
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 2, 5],
+    "time": 3.1077879429999484
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 2, 6],
+    "time": 3.0805947184002433
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 3, 1],
+    "time": 2.2526041007999082
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 3, 2],
+    "time": 2.972428523200051
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 3, 3],
+    "time": 3.2948509920001925
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 3, 4],
+    "time": 3.1992018456000553
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 3, 5],
+    "time": 3.304307238399906
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 3, 6],
+    "time": 3.2852273749999767
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 3, 4, 1],
+    "time": 1.7738634230000572
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 4, 2],
+    "time": 3.010019636799916
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 4, 3],
+    "time": 3.2116550908000137
+  },
+  {
+    "result": true,
+    "turns": 2,
+    "goal": [2, 3, 4, 4],
+    "time": 2.369488260199887
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 4, 5],
+    "time": 3.198721557800036
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 4, 6],
+    "time": 3.179724688400074
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 5, 1],
+    "time": 2.2373540638000122
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 5, 2],
+    "time": 3.112292166000043
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 5, 3],
+    "time": 3.303654320000078
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 5, 4],
+    "time": 3.3072112566000214
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 5, 5],
+    "time": 3.2990587166000296
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 5, 6],
+    "time": 3.3033329842000057
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 6, 1],
+    "time": 2.244002855800045
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 6, 2],
+    "time": 3.079080470000008
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 6, 3],
+    "time": 3.3051015148000262
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 6, 4],
+    "time": 3.212695079999867
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 6, 5],
+    "time": 3.2878995305999523
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 3, 6, 6],
+    "time": 3.298368772199956
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 1, 1],
+    "time": 1.278411564199996
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 1, 2],
+    "time": 1.8220024495998586
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 4, 1, 3],
+    "time": 1.8077341094000077
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 1, 4],
+    "time": 1.791819994800062
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 1, 5],
+    "time": 1.876962206600092
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 1, 6],
+    "time": 1.8831102241998452
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 2, 1],
+    "time": 1.3900618911999119
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 2, 2],
+    "time": 2.3986822270001538
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 2, 3],
+    "time": 2.999219645800167
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 2, 4],
+    "time": 2.9752017291999437
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 2, 5],
+    "time": 3.076337796200005
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 2, 6],
+    "time": 3.112377270200068
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 3, 1],
+    "time": 1.79583409020006
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 3, 2],
+    "time": 3.0612626547999753
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 3, 3],
+    "time": 3.285810108000078
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 3, 4],
+    "time": 2.8450354950000474
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 3, 5],
+    "time": 3.29503143740003
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 3, 6],
+    "time": 3.2967080112000984
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 4, 1],
+    "time": 1.7745316269998512
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 4, 2],
+    "time": 3.1045246540003064
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 4, 3],
+    "time": 2.764575804800006
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 4, 4],
+    "time": 3.2137146213999586
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 4, 5],
+    "time": 2.831835141999727
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 4, 6],
+    "time": 3.216640506600015
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 5, 1],
+    "time": 2.272518220200072
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 5, 2],
+    "time": 3.0889722218000317
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 5, 3],
+    "time": 2.8895770182001796
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 4, 5, 4],
+    "time": 2.8195047042001535
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 5, 5],
+    "time": 3.4150036311995793
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 5, 6],
+    "time": 3.426291616799972
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 6, 1],
+    "time": 2.2776355223999416
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 6, 2],
+    "time": 3.104437370599771
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 6, 3],
+    "time": 3.2815006185999662
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 6, 4],
+    "time": 3.226915810400169
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 6, 5],
+    "time": 3.523816020799859
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 4, 6, 6],
+    "time": 3.4223864327997946
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 5, 1, 1],
+    "time": 1.2732381241999975
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 1, 2],
+    "time": 1.8210573786001987
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 1, 3],
+    "time": 2.283831871000075
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 1, 4],
+    "time": 2.255022193800323
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 1, 5],
+    "time": 2.2337775723997764
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 1, 6],
+    "time": 2.244573407399912
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 5, 2, 1],
+    "time": 1.4002873192001062
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 5, 2, 2],
+    "time": 1.9015843905999645
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 2, 3],
+    "time": 3.092042042999674
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 2, 4],
+    "time": 2.979509424400203
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [2, 5, 2, 5],
+    "time": 2.567965438600004
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 2, 6],
+    "time": 2.959279485400111
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 3, 1],
+    "time": 2.2575570119999613
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 3, 2],
+    "time": 2.9915701433999855
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 3, 3],
+    "time": 3.4387287543999263
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 3, 4],
+    "time": 3.217017100999874
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 3, 5],
+    "time": 3.4113354350001828
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 3, 6],
+    "time": 3.4365327985999103
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 5, 4, 1],
+    "time": 1.8442494950000765
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 4, 2],
+    "time": 3.0684483323997482
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 4, 3],
+    "time": 3.233496012799878
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 5, 4, 4],
+    "time": 2.8031380817999887
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 5, 4, 5],
+    "time": 2.9627121269999406
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 4, 6],
+    "time": 3.3168823447998874
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 5, 1],
+    "time": 2.2591995534001397
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 5, 2],
+    "time": 2.9785249090000434
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 5, 3],
+    "time": 3.4481033210000533
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 5, 4],
+    "time": 3.297635787600666
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 5, 5],
+    "time": 3.363034616799814
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 5, 6],
+    "time": 3.3763293502001033
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 6, 1],
+    "time": 2.2408981281998424
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 6, 2],
+    "time": 2.9608739507997597
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 6, 3],
+    "time": 3.432854138800212
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 6, 4],
+    "time": 3.3025073293998504
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 6, 5],
+    "time": 3.373147017999872
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 5, 6, 6],
+    "time": 3.3704605270000685
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 6, 1, 1],
+    "time": 1.2765561300000627
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 6, 1, 2],
+    "time": 1.4198890370000299
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 1, 3],
+    "time": 2.2739208339999095
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 1, 4],
+    "time": 2.2539247212000193
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 1, 5],
+    "time": 2.241650862200186
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 1, 6],
+    "time": 2.228847339800086
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 6, 2, 1],
+    "time": 1.3962905693999346
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 6, 2, 2],
+    "time": 1.8995759548000932
+  },
+  { "result": true, "turns": 5, "goal": [2, 6, 2, 3], "time": 3.0777441627999 },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 2, 4],
+    "time": 3.0593030844000166
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 2, 5],
+    "time": 2.953410177799924
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 2, 6],
+    "time": 2.9653258161999476
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 3, 1],
+    "time": 2.283609943600095
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 3, 2],
+    "time": 2.998159117999967
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 3, 3],
+    "time": 3.4033995793997747
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 3, 4],
+    "time": 3.2245051450001485
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 3, 5],
+    "time": 3.3983528818002013
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 3, 6],
+    "time": 3.4243653183999414
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 4, 1],
+    "time": 2.238883139999962
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 4, 2],
+    "time": 3.1117298413999377
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 4, 3],
+    "time": 3.221722872800092
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 4, 4],
+    "time": 3.196427214199866
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 4, 5],
+    "time": 3.275710491999962
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 4, 6],
+    "time": 3.284636559599858
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 5, 1],
+    "time": 2.239882201199907
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 5, 2],
+    "time": 2.967291721999936
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 5, 3],
+    "time": 3.4239301324001645
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 5, 4],
+    "time": 3.386907367200365
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 5, 5],
+    "time": 3.385230174800017
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 5, 6],
+    "time": 3.371265622199826
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 6, 1],
+    "time": 2.244688381800188
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 6, 2],
+    "time": 2.9618029738001495
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 6, 3],
+    "time": 3.41289167599989
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 6, 4],
+    "time": 3.2972479411995663
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [2, 6, 6, 5],
+    "time": 3.3554269238002234
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [2, 6, 6, 6],
+    "time": 2.94883348759995
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 1, 1],
+    "time": 3.068605245800063
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 1, 2],
+    "time": 1.3981208928000342
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 1, 3],
+    "time": 3.0706517406000784
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 1, 4],
+    "time": 2.4639228989999538
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 1, 5],
+    "time": 3.0373442757998417
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 1, 6],
+    "time": 3.0611066595996816
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 2, 1],
+    "time": 1.3916258104000008
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [3, 1, 2, 2],
+    "time": 0.8898681346001467
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 2, 3],
+    "time": 2.3666837966002277
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 2, 4],
+    "time": 1.8864634147998003
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 2, 5],
+    "time": 1.958976863600037
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 2, 6],
+    "time": 2.3657645850002154
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 3, 1],
+    "time": 2.9155202447998816
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 3, 2],
+    "time": 2.389627892200042
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 3, 3],
+    "time": 3.4168921629998295
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 3, 4],
+    "time": 3.3732391907999046
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [3, 1, 3, 5],
+    "time": 3.0044876136000314
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 3, 6],
+    "time": 3.422264162400097
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 4, 1],
+    "time": 2.459016275400245
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 4, 2],
+    "time": 1.8698282995999762
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 4, 3],
+    "time": 3.272770000800301
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 4, 4],
+    "time": 2.766253768399838
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [3, 1, 4, 5],
+    "time": 2.869261015000302
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 4, 6],
+    "time": 3.2706959939998344
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 5, 1],
+    "time": 2.651718341799642
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 1, 5, 2],
+    "time": 2.0040334917999645
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 5, 3],
+    "time": 3.404068004199871
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 5, 4],
+    "time": 3.274111316800372
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 5, 5],
+    "time": 3.4213774285999534
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 5, 6],
+    "time": 3.4150454069998886
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 6, 1],
+    "time": 3.035243341200112
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 6, 2],
+    "time": 2.372327228200265
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 6, 3],
+    "time": 3.4000945121997574
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 6, 4],
+    "time": 3.2795013228002063
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 6, 5],
+    "time": 3.549248263200025
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 1, 6, 6],
+    "time": 3.4175439443999496
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [3, 2, 1, 1],
+    "time": 0.8729844753999714
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 2, 1, 2],
+    "time": 1.396698877000017
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 1, 3],
+    "time": 2.2682385688001885
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 2, 1, 4],
+    "time": 1.8024854420000338
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 2, 1, 5],
+    "time": 1.8522372070001438
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 1, 6],
+    "time": 2.4018790288002494
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 2, 2, 1],
+    "time": 1.446116221599914
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 2, 2],
+    "time": 2.4431866623999667
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 2, 3],
+    "time": 3.102247838400217
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 2, 4],
+    "time": 3.0377308769997398
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 2, 5],
+    "time": 3.0800957008001206
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 2, 6],
+    "time": 3.090101462599887
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 3, 1],
+    "time": 2.250350160400012
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 3, 2],
+    "time": 2.990397451799981
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 3, 3],
+    "time": 3.414320482399853
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 3, 4],
+    "time": 3.2860223089999634
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [3, 2, 3, 5],
+    "time": 3.0055754783998054
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 3, 6],
+    "time": 3.42548753760002
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 2, 4, 1],
+    "time": 1.7931897297999968
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 4, 2],
+    "time": 2.995214749800289
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 4, 3],
+    "time": 3.2816410022000126
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 2, 4, 4],
+    "time": 2.861115945599704
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [3, 2, 4, 5],
+    "time": 2.893925188400135
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 4, 6],
+    "time": 3.2730872289999753
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 5, 1],
+    "time": 2.2616065120000712
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 5, 2],
+    "time": 3.1064592235998134
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 5, 3],
+    "time": 3.404096239000137
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 5, 4],
+    "time": 3.2619210656001085
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 5, 5],
+    "time": 3.4222543715999563
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 5, 6],
+    "time": 3.4128550073999575
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 6, 1],
+    "time": 2.2620013035999365
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 6, 2],
+    "time": 3.0808283780001147
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 6, 3],
+    "time": 3.4000865265999893
+  },
+  { "result": true, "turns": 5, "goal": [3, 2, 6, 4], "time": 3.2926585084002 },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 6, 5],
+    "time": 3.4231618567999247
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 2, 6, 6],
+    "time": 3.408362101000057
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 1, 1],
+    "time": 2.2431374671999946
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 3, 1, 2],
+    "time": 2.5987498305998087
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 1, 3],
+    "time": 3.363025824000033
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 1, 4],
+    "time": 3.4100475248002113
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 1, 5],
+    "time": 3.5062370123998337
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 1, 6],
+    "time": 3.4007965879998663
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 2, 1],
+    "time": 2.991104763000112
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 2, 2],
+    "time": 2.4016383423999286
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 2, 3],
+    "time": 3.355984869999884
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 2, 4],
+    "time": 3.305901017999895
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 2, 5],
+    "time": 3.3652741339998102
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 2, 6],
+    "time": 3.377680460600277
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 3, 1],
+    "time": 3.3773332008002397
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 3, 2],
+    "time": 3.377695384799881
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 3, 3],
+    "time": 3.2948445832002107
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 3, 4],
+    "time": 3.251050057400062
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 3, 5],
+    "time": 3.1993998380001356
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 3, 6],
+    "time": 3.301619668800049
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 4, 1],
+    "time": 3.299475223400259
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 4, 2],
+    "time": 3.291450566999811
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 4, 3],
+    "time": 3.196969433599952
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 4, 4],
+    "time": 3.2085245868000127
+  },
+  {
+    "result": true,
+    "turns": 2,
+    "goal": [3, 3, 4, 5],
+    "time": 2.326759379000032
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 4, 6],
+    "time": 3.2906363474001408
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 5, 1],
+    "time": 3.385950567999862
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 5, 2],
+    "time": 3.366511028199784
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 5, 3],
+    "time": 3.255537395399915
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 3, 5, 4],
+    "time": 2.7573133906003933
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 5, 5],
+    "time": 3.2039425830002073
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 5, 6],
+    "time": 3.2452775703999577
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 6, 1],
+    "time": 3.370606604199929
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 6, 2],
+    "time": 3.3817163244002586
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 6, 3],
+    "time": 3.2970610918000602
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 6, 4],
+    "time": 3.2373177628003758
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 3, 6, 5],
+    "time": 3.2205753094000102
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 3, 6, 6],
+    "time": 2.895826155799841
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 1, 1],
+    "time": 2.257623651200265
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 4, 1, 2],
+    "time": 2.456210427399674
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 1, 3],
+    "time": 3.4261840126000607
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 1, 4],
+    "time": 3.26674565839985
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 1, 5],
+    "time": 3.429110157799914
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 1, 6],
+    "time": 3.4260214099998847
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 4, 2, 1],
+    "time": 2.507538183199904
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 2, 2],
+    "time": 2.391544033000173
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 2, 3],
+    "time": 3.4358046158000435
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 2, 4],
+    "time": 3.270507363399884
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 2, 5],
+    "time": 3.4223196640001334
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 2, 6],
+    "time": 3.4244711383998947
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 3, 1],
+    "time": 3.4278240656001797
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 3, 2],
+    "time": 3.415112553200197
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 3, 3],
+    "time": 3.3823113914000715
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 3, 4],
+    "time": 3.3727178238001216
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 3, 5],
+    "time": 3.1460356363997564
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 3, 6],
+    "time": 3.4019063147998168
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 4, 1],
+    "time": 3.2613019954000264
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 4, 2],
+    "time": 3.274895524400017
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 4, 4, 3],
+    "time": 2.8582649627998764
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 4, 4],
+    "time": 3.297548158800055
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 4, 5],
+    "time": 3.1878171446000123
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 4, 6],
+    "time": 3.3071471389999716
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 5, 1],
+    "time": 3.4203721851999944
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 5, 2],
+    "time": 3.5211175473998084
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 4, 5, 3],
+    "time": 2.747615995799788
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [3, 4, 5, 4],
+    "time": 2.9625867804001245
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 5, 5],
+    "time": 3.2529946946002384
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 5, 6],
+    "time": 3.3708977608001076
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 6, 1],
+    "time": 3.428067511199697
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 6, 2],
+    "time": 3.4303718726001535
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 6, 3],
+    "time": 3.379806331599866
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 6, 4],
+    "time": 3.413310692200139
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 6, 5],
+    "time": 3.2588744467999278
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 4, 6, 6],
+    "time": 3.420655282400003
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 1, 1],
+    "time": 2.24801118919986
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 1, 2],
+    "time": 2.993212623599902
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 1, 3],
+    "time": 3.4329057244001886
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 1, 4],
+    "time": 3.496145352599888
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 1, 5],
+    "time": 3.436803513199993
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 1, 6],
+    "time": 3.4465286234000816
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 2, 1],
+    "time": 2.9921792225999524
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 2, 2],
+    "time": 2.4080972387997464
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 2, 3],
+    "time": 3.534871931000089
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 2, 4],
+    "time": 3.405807719999939
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 2, 5],
+    "time": 3.410385184000006
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 2, 6],
+    "time": 3.4529388000000836
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 3, 1],
+    "time": 3.448188995799865
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 3, 2],
+    "time": 3.4476014182000654
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 3, 3],
+    "time": 3.3985059136000926
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 5, 3, 4],
+    "time": 2.745494208200216
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 3, 5],
+    "time": 3.252485637400059
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 3, 6],
+    "time": 3.384099719599908
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 5, 4, 1],
+    "time": 3.0168592881998846
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 5, 4, 2],
+    "time": 3.007010616799744
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 4, 3],
+    "time": 3.145813322400136
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 4, 4],
+    "time": 3.2553642724000382
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 4, 5],
+    "time": 3.2022868537998876
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 4, 6],
+    "time": 3.261876260399913
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 5, 1],
+    "time": 3.445532063600331
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 5, 2],
+    "time": 3.4470876613995642
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 5, 3],
+    "time": 3.4960532429999147
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 5, 4],
+    "time": 3.378152730200236
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 5, 5],
+    "time": 3.3004117193999263
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 5, 6],
+    "time": 3.4150146031999613
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 6, 1],
+    "time": 3.453212925200023
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 6, 2],
+    "time": 3.4349483583997427
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 6, 3],
+    "time": 3.4128011731996595
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 6, 4],
+    "time": 3.3860612877999303
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 6, 5],
+    "time": 3.286619791799967
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 5, 6, 6],
+    "time": 3.404593890400247
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 1, 1],
+    "time": 2.2341199352007606
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 1, 2],
+    "time": 3.0084033945997364
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 1, 3],
+    "time": 3.4292642436001186
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 1, 4],
+    "time": 3.428562453199993
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 1, 5],
+    "time": 3.4412746426001832
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 1, 6],
+    "time": 3.4418471992001285
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 2, 1],
+    "time": 3.0006705650001093
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 2, 2],
+    "time": 2.3872305591998155
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 2, 3],
+    "time": 3.522813281999697
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 2, 4],
+    "time": 3.464497332600513
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 2, 5],
+    "time": 3.434973770799843
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 2, 6],
+    "time": 3.4403035956001986
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 3, 1],
+    "time": 3.43512120780033
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 3, 2],
+    "time": 3.4397373425992557
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 3, 3],
+    "time": 3.393383994800024
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 3, 4],
+    "time": 3.383433880999655
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 3, 5],
+    "time": 3.2578477030001523
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 3, 6],
+    "time": 3.40589135980008
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 4, 1],
+    "time": 3.420820044799984
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 4, 2],
+    "time": 3.42316632439979
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 4, 3],
+    "time": 3.262387591800143
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 4, 4],
+    "time": 3.2948052347997874
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 4, 5],
+    "time": 3.188731709399872
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 4, 6],
+    "time": 3.2887305102001845
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 5, 1],
+    "time": 3.4505821226000988
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 5, 2],
+    "time": 3.4510402081999927
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 5, 3],
+    "time": 3.3776136715998293
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 5, 4],
+    "time": 3.4861068004000115
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 5, 5],
+    "time": 3.3088146204001534
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 5, 6],
+    "time": 3.4333732293998764
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 6, 1],
+    "time": 3.437343057399994
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 6, 2],
+    "time": 3.484542883999893
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 6, 3],
+    "time": 3.465358341400133
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [3, 6, 6, 4],
+    "time": 3.408200842999213
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 6, 6, 5],
+    "time": 2.9074105589996178
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [3, 6, 6, 6],
+    "time": 2.836494003400003
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 1, 1],
+    "time": 3.066794626599949
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 1, 2],
+    "time": 1.3837967322000622
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 1, 3],
+    "time": 2.451420810200216
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 1, 4],
+    "time": 2.8975296931992487
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 1, 5],
+    "time": 3.05153952239998
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 1, 6],
+    "time": 3.06797061080033
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 2, 1],
+    "time": 1.3875875646001077
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 2, 2],
+    "time": 1.6972059528001409
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 2, 3],
+    "time": 1.877909477600042
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 2, 4],
+    "time": 2.4051560873995186
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 2, 5],
+    "time": 1.9594807622001098
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 2, 6],
+    "time": 2.354329680599767
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 3, 1],
+    "time": 2.567945850799515
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 3, 2],
+    "time": 1.8936623058005353
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 3, 3],
+    "time": 2.791440256799615
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 3, 4],
+    "time": 2.7538523088001967
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 3, 5],
+    "time": 2.7835916294006893
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 3, 6],
+    "time": 2.7881187246006447
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 4, 1],
+    "time": 3.05694788879955
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 4, 2],
+    "time": 2.386084316999768
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 4, 3],
+    "time": 2.753203063000183
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 4, 4],
+    "time": 3.234656499600169
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 4, 5],
+    "time": 3.271901408600024
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 4, 6],
+    "time": 3.277230984200287
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 5, 1],
+    "time": 3.049005971199949
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 5, 2],
+    "time": 2.3529446358003043
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 5, 3],
+    "time": 2.7874309741997423
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 5, 4],
+    "time": 3.265440016799039
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 5, 5],
+    "time": 3.4245106496000517
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 5, 6],
+    "time": 3.4106260431999544
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 6, 1],
+    "time": 3.055799446200035
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 6, 2],
+    "time": 2.364528103799967
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 1, 6, 3],
+    "time": 2.7947433331995852
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 6, 4],
+    "time": 3.3728567002006455
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 6, 5],
+    "time": 3.422776615600378
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 1, 6, 6],
+    "time": 3.4269029356004466
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 1, 1],
+    "time": 1.263129664999724
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 1, 2],
+    "time": 1.7928807709995453
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 1, 3],
+    "time": 1.7575005570004578
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 1, 4],
+    "time": 1.7883489410003677
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 1, 5],
+    "time": 2.248005763400215
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 1, 6],
+    "time": 2.257390217000284
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 2, 1],
+    "time": 1.8187295855997945
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 2, 2],
+    "time": 2.35092600359967
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 2, 3],
+    "time": 2.9990246474000744
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 2, 4],
+    "time": 2.973777443799918
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 2, 5],
+    "time": 3.1065572072006034
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 2, 6],
+    "time": 3.116968775599889
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 3, 1],
+    "time": 1.7592826373998833
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 3, 2],
+    "time": 3.040063718999227
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 3, 3],
+    "time": 2.783988605799459
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 3, 4],
+    "time": 2.7671081298001807
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 3, 5],
+    "time": 2.7800524030000817
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 3, 6],
+    "time": 2.784526956999616
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 4, 1],
+    "time": 1.789793699599977
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 4, 2],
+    "time": 3.077125109800181
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 4, 3],
+    "time": 2.7631723198002875
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 4, 4],
+    "time": 3.248126019999836
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 4, 5],
+    "time": 3.369308445399656
+  },
+  { "result": true, "turns": 5, "goal": [4, 2, 4, 6], "time": 3.2698323678007 },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 5, 1],
+    "time": 1.8688449696001044
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 5, 2],
+    "time": 3.0768054751999445
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 5, 3],
+    "time": 2.7847939560004304
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 5, 4],
+    "time": 3.26138200580026
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 5, 5],
+    "time": 3.427894719800679
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 5, 6],
+    "time": 3.4288919509999687
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 6, 1],
+    "time": 2.2482131958000537
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 6, 2],
+    "time": 3.0904317068001546
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 2, 6, 3],
+    "time": 2.800847464400067
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 6, 4],
+    "time": 3.2628466930003923
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 6, 5],
+    "time": 3.4071175835993928
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 2, 6, 6],
+    "time": 3.425428152600216
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 1, 1],
+    "time": 2.272714124000049
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 3, 1, 2],
+    "time": 2.457403817999875
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 1, 3],
+    "time": 3.4139273224001956
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 1, 4],
+    "time": 3.2082328677995973
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 1, 5],
+    "time": 3.490060093199645
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 1, 6],
+    "time": 3.4348203509995074
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 3, 2, 1],
+    "time": 2.4544642794004177
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 3, 2, 2],
+    "time": 1.9535987229995952
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 2, 3],
+    "time": 3.4174911447997145
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 2, 4],
+    "time": 3.2323154168003385
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 2, 5],
+    "time": 3.402827927800172
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 2, 6],
+    "time": 3.412373788200057
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 3, 1],
+    "time": 3.4300565497997013
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 3, 2],
+    "time": 3.4288326025998686
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 3, 3],
+    "time": 3.3824633697997344
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 3, 4],
+    "time": 3.374948071399922
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 3, 5],
+    "time": 3.14586447699985
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 3, 6],
+    "time": 3.381954151199898
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 4, 1],
+    "time": 3.254375121600242
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 4, 2],
+    "time": 3.2255248815992674
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 4, 3],
+    "time": 3.247354439400078
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 4, 4],
+    "time": 3.2920409435999316
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 4, 5],
+    "time": 3.1921146651999153
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 4, 6],
+    "time": 3.295483657800287
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 5, 1],
+    "time": 3.9000413415997173
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 5, 2],
+    "time": 3.4938133857998763
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 3, 5, 3],
+    "time": 2.776009294599862
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 3, 5, 4],
+    "time": 2.9762594339994393
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 5, 5],
+    "time": 3.259718407400578
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 5, 6],
+    "time": 3.381761249200281
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 6, 1],
+    "time": 3.443322388199886
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 6, 2],
+    "time": 3.443770289600434
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 6, 3],
+    "time": 3.3992706826003998
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 6, 4],
+    "time": 3.4011189839995497
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 6, 5],
+    "time": 3.23916229360002
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 3, 6, 6],
+    "time": 3.411565791599787
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 1, 1],
+    "time": 2.252191822400346
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 1, 2],
+    "time": 2.987730711999757
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 4, 1, 3],
+    "time": 2.7806060839990097
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 1, 4],
+    "time": 3.413743623200935
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 1, 5],
+    "time": 3.40627359819955
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 1, 6],
+    "time": 3.4487650024002505
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 2, 1],
+    "time": 3.0247669683998537
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 2, 2],
+    "time": 2.4042470283999138
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 4, 2, 3],
+    "time": 2.785367612600021
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 2, 4],
+    "time": 3.413964962400132
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 2, 5],
+    "time": 3.418375253999693
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 2, 6],
+    "time": 3.4072622299991053
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 4, 3, 1],
+    "time": 2.780510324000352
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 4, 3, 2],
+    "time": 2.790190528200765
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 4, 3, 3],
+    "time": 2.8430109611999796
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 3, 4],
+    "time": 3.406074325200825
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 3, 5],
+    "time": 3.3649873379999917
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 3, 6],
+    "time": 3.411014344399882
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 4, 1],
+    "time": 3.400144759599789
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 4, 2],
+    "time": 3.4152689316004397
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 4, 3],
+    "time": 3.4191849959999674
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 4, 4, 4],
+    "time": 2.819259329600027
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 4, 5],
+    "time": 3.2918819615995742
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 4, 6],
+    "time": 3.2339559370004283
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 5, 1],
+    "time": 3.4736017634000746
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 5, 2],
+    "time": 3.4216494127998884
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 5, 3],
+    "time": 3.254912458200124
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 5, 4],
+    "time": 3.3891899631998967
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 5, 5],
+    "time": 3.4159077942003933
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 5, 6],
+    "time": 3.385745666400544
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 6, 1],
+    "time": 3.397362995799631
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 6, 2],
+    "time": 3.3954701196002133
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 6, 3],
+    "time": 3.3662173833999987
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 4, 6, 4],
+    "time": 2.809138995399917
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 6, 5],
+    "time": 3.431753658199523
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 4, 6, 6],
+    "time": 3.221862483399673
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 1, 1],
+    "time": 2.229605817400079
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 1, 2],
+    "time": 2.995089989599728
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 1, 3],
+    "time": 3.4067166530003306
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 1, 4],
+    "time": 3.4005085267999675
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 1, 5],
+    "time": 3.414346208799543
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 5, 1, 6],
+    "time": 3.4287109970005987
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 2, 1],
+    "time": 3.0064896438005233
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 2, 2],
+    "time": 2.490988477799692
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 2, 3],
+    "time": 3.3946371786001692
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 2, 4],
+    "time": 3.389919615400868
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 2, 5],
+    "time": 3.4353189964000195
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 2, 6],
+    "time": 3.435158993599907
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 3, 1],
+    "time": 3.4169962028001466
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 3, 2],
+    "time": 3.4231166838002536
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 5, 3, 3],
+    "time": 2.724432707199958
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 3, 4],
+    "time": 3.2523573668004246
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 3, 5],
+    "time": 3.3677477271998213
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 3, 6],
+    "time": 3.2666391022001333
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 4, 1],
+    "time": 3.4167503093998675
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 4, 2],
+    "time": 3.398461011399559
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [4, 5, 4, 3],
+    "time": 2.960217437400206
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 4, 4],
+    "time": 3.454237280199595
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 4, 5],
+    "time": 3.322028974600471
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 4, 6],
+    "time": 3.431499296400216
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 5, 1],
+    "time": 3.4459484949999024
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 5, 2],
+    "time": 3.544169156600401
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 5, 3],
+    "time": 3.255840542000442
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 5, 4],
+    "time": 3.3828586275994894
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 5, 5],
+    "time": 3.42705372200071
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 5, 6],
+    "time": 3.3910656512001878
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 6, 1],
+    "time": 3.441275342200606
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 6, 2],
+    "time": 3.445292085600522
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 6, 3],
+    "time": 3.237229841200315
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 6, 4],
+    "time": 3.3986227018001953
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 6, 5],
+    "time": 3.4194870078004898
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 5, 6, 6],
+    "time": 3.3846394632004375
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 1, 1],
+    "time": 2.2573776735993305
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 1, 2],
+    "time": 2.992862225600038
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 1, 3],
+    "time": 3.396257086800688
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 1, 4],
+    "time": 3.403592084399861
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 1, 5],
+    "time": 3.4530267287998866
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 1, 6],
+    "time": 3.4246301382005186
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 2, 1],
+    "time": 2.9879001383993455
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 2, 2],
+    "time": 2.390635411200492
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 2, 3],
+    "time": 3.4122455021999487
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 2, 4],
+    "time": 3.501027993000025
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 2, 5],
+    "time": 3.445416083999953
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 2, 6],
+    "time": 3.430731591399308
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 3, 1],
+    "time": 3.426846473199839
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 3, 2],
+    "time": 3.415849331000936
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 3, 3],
+    "time": 3.2476791264001803
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 3, 4],
+    "time": 3.4056681821995882
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 3, 5],
+    "time": 3.3826992940001217
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 3, 6],
+    "time": 3.365863903600257
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 4, 1],
+    "time": 3.419489345400507
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 4, 2],
+    "time": 3.424957037399872
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 4, 3],
+    "time": 3.4224876061998657
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 4, 4],
+    "time": 3.221495260799929
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 4, 5],
+    "time": 3.3009967682002754
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 4, 6],
+    "time": 3.2432193930006177
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 5, 1],
+    "time": 3.437279911800215
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 5, 2],
+    "time": 3.513864453599672
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [4, 6, 5, 3],
+    "time": 2.8913449748000857
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 5, 4],
+    "time": 3.3976426119996175
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 5, 5],
+    "time": 3.4313788657997066
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 5, 6],
+    "time": 3.3860399738001434
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 6, 1],
+    "time": 3.4566983334003454
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 6, 2],
+    "time": 3.431253695799751
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 6, 3],
+    "time": 3.3720043943994824
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 6, 4],
+    "time": 3.2100668640006917
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 6, 5],
+    "time": 3.424797854999997
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [4, 6, 6, 6],
+    "time": 3.212712532200021
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 1, 1],
+    "time": 3.038343294600054
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 1, 1, 2],
+    "time": 1.365606177600057
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 1, 1, 3],
+    "time": 2.6509109913997237
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 1, 4],
+    "time": 2.8962955472004976
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 1, 5],
+    "time": 3.0477459056000953
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 1, 6],
+    "time": 3.0307774852000877
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 1, 2, 1],
+    "time": 1.384485680799844
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 2, 2],
+    "time": 1.7023046875998262
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 1, 2, 3],
+    "time": 1.9661844746005954
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 1, 2, 4],
+    "time": 1.9951455502003228
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 2, 5],
+    "time": 2.3814302934002627
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 2, 6],
+    "time": 2.37512278480026
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 1, 3, 1],
+    "time": 2.5880209769999056
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 3, 2],
+    "time": 2.4278220568005056
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 3, 3],
+    "time": 3.393269683600374
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 3, 4],
+    "time": 3.269606541000394
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 3, 5],
+    "time": 3.4269943255992983
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 3, 6],
+    "time": 3.4158977415998377
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 4, 1],
+    "time": 3.0471905096001137
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 4, 2],
+    "time": 2.357733961800477
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 4, 3],
+    "time": 3.2687315153998497
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 1, 4, 4],
+    "time": 2.827428805800082
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 4, 5],
+    "time": 3.458895704200404
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 4, 6],
+    "time": 3.408010073999685
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 5, 1],
+    "time": 3.0331715864002033
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 5, 2],
+    "time": 2.3967727478000596
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 5, 3],
+    "time": 3.397035957600383
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 5, 4],
+    "time": 3.4120700487997966
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 5, 5],
+    "time": 3.434636326799955
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 5, 6],
+    "time": 3.4091822403996046
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 6, 1],
+    "time": 3.097022536400618
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 6, 2],
+    "time": 2.410620564200508
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 6, 3],
+    "time": 3.3919538703998113
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 6, 4],
+    "time": 3.445802043599906
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 6, 5],
+    "time": 3.435211361999973
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 1, 6, 6],
+    "time": 3.4412690241999373
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 2, 1, 1],
+    "time": 1.2648278484000912
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 1, 2],
+    "time": 1.7991401153998594
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 1, 3],
+    "time": 2.258404877400244
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 1, 4],
+    "time": 2.264998387000378
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 1, 5],
+    "time": 2.230325569999695
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 1, 6],
+    "time": 2.2487047447993973
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 2, 1],
+    "time": 1.8105622738003149
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 2, 2, 2],
+    "time": 1.9695600651994027
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 2, 3],
+    "time": 3.100480511799469
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 2, 4],
+    "time": 2.9745092135999585
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 2, 5],
+    "time": 2.9546332702000653
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 2, 6],
+    "time": 2.957859928799735
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 3, 1],
+    "time": 2.270733582000685
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 3, 2],
+    "time": 2.9595353266002347
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 3, 3],
+    "time": 3.3974250818002476
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 3, 4],
+    "time": 3.26438185779989
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 3, 5],
+    "time": 3.4355738949994703
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 3, 6],
+    "time": 3.448421385599795
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 2, 4, 1],
+    "time": 1.9260076454000228
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 4, 2],
+    "time": 3.063761410200459
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 4, 3],
+    "time": 3.277568911600247
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 2, 4, 4],
+    "time": 2.8211184854004387
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 4, 5],
+    "time": 3.431055070399816
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 4, 6],
+    "time": 3.415601334600069
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 5, 1],
+    "time": 2.2441066500003215
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 2, 5, 2],
+    "time": 2.5456641790002323
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 5, 3],
+    "time": 3.4105822908004484
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 5, 4],
+    "time": 3.4545441504000336
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 5, 5],
+    "time": 3.4588290872005016
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 5, 6],
+    "time": 3.431920072199864
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 6, 1],
+    "time": 2.2359202610001376
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 6, 2],
+    "time": 2.9550032877996273
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 6, 3],
+    "time": 3.414183109800797
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 6, 4],
+    "time": 3.4206197761999646
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 6, 5],
+    "time": 3.433178871599739
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 2, 6, 6],
+    "time": 3.457774873199378
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 3, 1, 1],
+    "time": 1.9236527886005206
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 1, 2],
+    "time": 3.0290599422001834
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 3, 1, 3],
+    "time": 2.972370129600313
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 3, 1, 4],
+    "time": 2.903700956800094
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 1, 5],
+    "time": 3.389989429800335
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 1, 6],
+    "time": 3.3752756870002485
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 2, 1],
+    "time": 2.979695170400009
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 2, 2],
+    "time": 2.3856990243995826
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 3, 2, 3],
+    "time": 2.964330426200104
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 2, 4],
+    "time": 3.293330763199992
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 2, 5],
+    "time": 3.3647527411998452
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 2, 6],
+    "time": 3.372970360800173
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 3, 1],
+    "time": 3.386017775000073
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 3, 2],
+    "time": 3.3747107837996735
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 3, 3],
+    "time": 3.4080106567998882
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 3, 3, 4],
+    "time": 2.7716294527999707
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 3, 5],
+    "time": 3.254696717600382
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 3, 6],
+    "time": 3.402978977600287
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 4, 1],
+    "time": 3.284392408200074
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 4, 2],
+    "time": 3.3796826596004395
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 4, 3],
+    "time": 3.1583048342006803
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 3, 4, 4],
+    "time": 2.8390188445999227
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 4, 5],
+    "time": 3.1888221263998275
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 4, 6],
+    "time": 3.246420498000225
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 5, 1],
+    "time": 3.3814776467999765
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 5, 2],
+    "time": 3.369649709999794
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 5, 3],
+    "time": 3.3842621709998637
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 5, 4],
+    "time": 3.384986798599857
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 5, 5],
+    "time": 3.3083891369995397
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 5, 6],
+    "time": 3.4084920992001573
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 6, 1],
+    "time": 3.387698029800231
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 6, 2],
+    "time": 3.374937267200221
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 6, 3],
+    "time": 3.375974470000074
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 6, 4],
+    "time": 3.385230775600212
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 6, 5],
+    "time": 3.285562125199431
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 3, 6, 6],
+    "time": 3.423076444200342
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 1, 1],
+    "time": 2.2404794036003297
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 1, 2],
+    "time": 2.995081814200239
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 1, 3],
+    "time": 3.486499489400012
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 1, 4],
+    "time": 3.4156454375999603
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 1, 5],
+    "time": 3.408550376399944
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 1, 6],
+    "time": 3.447949526600496
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 2, 1],
+    "time": 2.9952059097999153
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 2, 2],
+    "time": 2.517142374600371
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 2, 3],
+    "time": 3.4307322400003613
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 2, 4],
+    "time": 3.3931874589998188
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 2, 5],
+    "time": 3.417147335199479
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 2, 6],
+    "time": 3.4488669787999244
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 3, 1],
+    "time": 3.4177999109997472
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 3, 2],
+    "time": 3.4195682851997846
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 4, 3, 3],
+    "time": 2.7367485819999273
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 3, 4],
+    "time": 3.2426133353998012
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 3, 5],
+    "time": 3.380788605199632
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 3, 6],
+    "time": 3.2398772123993695
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 4, 1],
+    "time": 3.4107092322003156
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 4, 2],
+    "time": 3.40053590719981
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 4, 3],
+    "time": 3.3614200993997656
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 4, 4],
+    "time": 3.5261898679997103
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 4, 5],
+    "time": 3.309594696599743
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 4, 6],
+    "time": 3.423110411399466
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 5, 1],
+    "time": 3.41376824220024
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 5, 2],
+    "time": 3.4325157194001803
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 5, 3],
+    "time": 3.2331187677998967
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 5, 4],
+    "time": 3.3823182550004276
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 5, 5],
+    "time": 3.418789416000436
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 5, 6],
+    "time": 3.3855272313994647
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 6, 1],
+    "time": 3.4546786603998045
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 6, 2],
+    "time": 3.4375156859998244
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 6, 3],
+    "time": 3.2368138399997406
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 6, 4],
+    "time": 3.4127656889999343
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 6, 5],
+    "time": 3.4198873879995517
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 4, 6, 6],
+    "time": 3.371332683000219
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 5, 1, 1],
+    "time": 1.7767298976006713
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 1, 2],
+    "time": 3.1036512711994875
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 1, 3],
+    "time": 3.50783989739939
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 1, 4],
+    "time": 3.383753793399592
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 1, 5],
+    "time": 3.306054650799706
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 1, 6],
+    "time": 3.2532148508002137
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 2, 1],
+    "time": 3.1009704091997263
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 5, 2, 2],
+    "time": 1.8975470999994286
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 2, 3],
+    "time": 3.408331981200172
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 2, 4],
+    "time": 3.382900526799858
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 2, 5],
+    "time": 3.4839246905994514
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 2, 6],
+    "time": 3.2421512233999237
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 3, 1],
+    "time": 3.433326088600006
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 3, 2],
+    "time": 3.4457687192003505
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 5, 3, 3],
+    "time": 2.855304208599409
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 3, 4],
+    "time": 3.2240742376001434
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 3, 5],
+    "time": 3.4246954119997097
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 3, 6],
+    "time": 3.4028655764002904
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 4, 1],
+    "time": 3.3617578410005082
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 4, 2],
+    "time": 3.3584993741998916
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 4, 3],
+    "time": 3.3925642239995795
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 4, 4],
+    "time": 3.438977528000032
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 4, 5],
+    "time": 3.3609775606000767
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 4, 6],
+    "time": 3.420802170200477
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 5, 1],
+    "time": 3.256937196000217
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 5, 2],
+    "time": 3.2432605609996243
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 5, 5, 3],
+    "time": 2.9732087901997146
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 5, 4],
+    "time": 3.381774706599754
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 5, 5],
+    "time": 3.23802449620016
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 5, 5, 6],
+    "time": 2.8184793738000735
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 6, 1],
+    "time": 3.2360155051999753
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 6, 2],
+    "time": 3.269910469799652
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 6, 3],
+    "time": 3.401113220800471
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 5, 6, 4],
+    "time": 3.435606662200371
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 5, 6, 5],
+    "time": 2.871161505600321
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 5, 6, 6],
+    "time": 2.845862620400294
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 6, 1, 1],
+    "time": 1.783522387800258
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 1, 2],
+    "time": 3.107581975199719
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 1, 3],
+    "time": 3.4419072170003346
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 1, 4],
+    "time": 3.4029570808001153
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 1, 5],
+    "time": 3.3117838316000414
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 1, 6],
+    "time": 3.240337538199674
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 2, 1],
+    "time": 3.100971773400306
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 6, 2, 2],
+    "time": 1.910517181999967
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 2, 3],
+    "time": 3.453094153799975
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 2, 4],
+    "time": 3.3712372324000173
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 2, 5],
+    "time": 3.247929384799863
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 2, 6],
+    "time": 3.242773837199638
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 3, 1],
+    "time": 3.4501692056004685
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 3, 2],
+    "time": 3.447491380599968
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 3, 3],
+    "time": 3.2385865494004973
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 3, 4],
+    "time": 3.250305206799749
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 3, 5],
+    "time": 3.437423885800672
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 3, 6],
+    "time": 3.3881838015997348
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 4, 1],
+    "time": 3.368863504399269
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 4, 2],
+    "time": 3.3822589725998116
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 4, 3],
+    "time": 3.3820528650001505
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 4, 4],
+    "time": 3.4247341610003788
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 4, 5],
+    "time": 3.2923905123996517
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 4, 6],
+    "time": 3.534972364800706
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 6, 5, 1],
+    "time": 2.8537701233995905
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [5, 6, 5, 2],
+    "time": 2.839752182599841
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 5, 3],
+    "time": 3.3965676650004752
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 5, 4],
+    "time": 3.400632067000333
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 5, 5],
+    "time": 3.2207388232000085
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 5, 6],
+    "time": 3.2307070799997746
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 6, 1],
+    "time": 3.2333820479998394
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 6, 2],
+    "time": 3.244703053399644
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 6, 3],
+    "time": 3.4000145821999466
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 6, 4],
+    "time": 3.433294053399732
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 6, 5],
+    "time": 3.2723315143994114
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [5, 6, 6, 6],
+    "time": 3.2263812478006004
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 1, 1],
+    "time": 3.04289712879945
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 1, 1, 2],
+    "time": 1.3680430678003177
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 1, 3],
+    "time": 3.0659357451997495
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 1, 4],
+    "time": 2.917367955399823
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 1, 5],
+    "time": 3.026797398399867
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 1, 6],
+    "time": 3.073046064600203
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 1, 2, 1],
+    "time": 1.4645718715997647
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 2, 2],
+    "time": 1.7163392408001528
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 2, 3],
+    "time": 2.374647038400144
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 2, 4],
+    "time": 2.3982717367995066
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 2, 5],
+    "time": 2.3990820539995186
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 2, 6],
+    "time": 2.3811839066001994
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 3, 1],
+    "time": 2.912727513400023
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 3, 2],
+    "time": 2.4526081244002853
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 3, 3],
+    "time": 3.403385975799756
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 3, 4],
+    "time": 3.2605392256002235
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 3, 5],
+    "time": 3.4140135485999052
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 3, 6],
+    "time": 3.4430798419994972
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 4, 1],
+    "time": 3.0563193762001903
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 4, 2],
+    "time": 2.3618246163998267
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 4, 3],
+    "time": 3.2644684806007715
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 4, 4],
+    "time": 3.2225223638000897
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 4, 5],
+    "time": 3.418169601000409
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 4, 6],
+    "time": 3.438879125799576
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 5, 1],
+    "time": 3.030705176200354
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 5, 2],
+    "time": 2.3909966075992997
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 5, 3],
+    "time": 3.395378685600008
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 5, 4],
+    "time": 3.412125059800019
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 5, 5],
+    "time": 3.541545925199898
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 5, 6],
+    "time": 3.4594119776007575
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 6, 1],
+    "time": 3.0278784251997424
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 1, 6, 2],
+    "time": 1.9851970491996327
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 6, 3],
+    "time": 3.4187672938001925
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 6, 4],
+    "time": 3.4361400829999185
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 6, 5],
+    "time": 3.439111714999308
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 1, 6, 6],
+    "time": 3.43172187880009
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 2, 1, 1],
+    "time": 1.275850587399691
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 1, 2],
+    "time": 1.7975243119995867
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 1, 3],
+    "time": 2.2566798444000598
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 1, 4],
+    "time": 2.281734972399863
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 1, 5],
+    "time": 2.230284378399665
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 1, 6],
+    "time": 2.2314640007996784
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 2, 1],
+    "time": 1.8057030477997613
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 2, 2],
+    "time": 2.336627548600154
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 2, 3],
+    "time": 3.093603397000334
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 2, 4],
+    "time": 2.959590719600601
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 2, 5],
+    "time": 2.948437121999814
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 2, 6],
+    "time": 2.961721126800694
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 3, 1],
+    "time": 2.2599160885998573
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 3, 2],
+    "time": 3.095140862799963
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 3, 3],
+    "time": 3.4034751259998304
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 3, 4],
+    "time": 3.271975403599936
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 3, 5],
+    "time": 3.422166306399595
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 3, 6],
+    "time": 3.4186191880002297
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 4, 1],
+    "time": 2.25627965639942
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 4, 2],
+    "time": 3.0726162441998897
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 4, 3],
+    "time": 3.2840763325999434
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 4, 4],
+    "time": 3.2156049596003866
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 4, 5],
+    "time": 3.418847256999652
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 4, 6],
+    "time": 3.4476023298000653
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 5, 1],
+    "time": 2.229686020200461
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 5, 2],
+    "time": 2.945047785799761
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 5, 3],
+    "time": 3.398433299399767
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 5, 4],
+    "time": 3.422698364600001
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 5, 5],
+    "time": 3.4394893241998945
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 5, 6],
+    "time": 3.4443631263999124
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 6, 1],
+    "time": 2.2348385156008588
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 2, 6, 2],
+    "time": 2.5654519723990235
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 6, 3],
+    "time": 3.5296250681996755
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 6, 4],
+    "time": 3.4317317183988054
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 6, 5],
+    "time": 3.4459841493990098
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 2, 6, 6],
+    "time": 3.458892823199858
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 1, 1],
+    "time": 2.2309619817991915
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 1, 2],
+    "time": 2.9940955758007477
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 1, 3],
+    "time": 3.357259673000226
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 1, 4],
+    "time": 3.295643870999629
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 1, 5],
+    "time": 3.3662817566008014
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 1, 6],
+    "time": 3.374794249400293
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 2, 1],
+    "time": 3.0703065881993097
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 2, 2],
+    "time": 2.411708556400117
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 2, 3],
+    "time": 3.382617440598551
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 2, 4],
+    "time": 3.289214258201537
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 2, 5],
+    "time": 3.3753438364008614
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 2, 6],
+    "time": 3.381362529999751
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 3, 1],
+    "time": 3.3639130944000497
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 3, 2],
+    "time": 3.367526428400015
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 3, 3],
+    "time": 3.393759974999557
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 3, 4],
+    "time": 3.398249771800329
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 3, 5],
+    "time": 3.351545969999279
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 3, 6],
+    "time": 3.412280771800579
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 4, 1],
+    "time": 3.2979695514011835
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 4, 2],
+    "time": 3.3083548920010797
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 4, 3],
+    "time": 3.2469284996004717
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 4, 4],
+    "time": 3.302153633999842
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 4, 5],
+    "time": 3.19624431080083
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 4, 6],
+    "time": 3.2950714602004156
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 5, 1],
+    "time": 3.354747101399698
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 5, 2],
+    "time": 3.367576526999619
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 5, 3],
+    "time": 3.3858758759990453
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 5, 4],
+    "time": 3.3736043787997914
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 5, 5],
+    "time": 3.2999870285995714
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 5, 6],
+    "time": 3.3992922863995774
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 6, 1],
+    "time": 3.378218591000041
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 6, 2],
+    "time": 3.367112027799885
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 6, 3],
+    "time": 3.4053930130008667
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 6, 4],
+    "time": 3.5378716631996214
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 3, 6, 5],
+    "time": 2.8977402831995276
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 3, 6, 6],
+    "time": 3.229162492398609
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 1, 1],
+    "time": 2.230995391399483
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 1, 2],
+    "time": 2.9832086360001995
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 1, 3],
+    "time": 3.4173668637995434
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 1, 4],
+    "time": 3.3955732670008727
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 1, 5],
+    "time": 3.4530398751994653
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 1, 6],
+    "time": 3.4634184488000757
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 2, 1],
+    "time": 2.9853850632003742
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 2, 2],
+    "time": 2.386088894400018
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 2, 3],
+    "time": 3.3961327219993107
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 2, 4],
+    "time": 3.4182196246001695
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 2, 5],
+    "time": 3.439397342801385
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 2, 6],
+    "time": 3.4282634362003592
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 3, 1],
+    "time": 3.419880653799919
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 3, 2],
+    "time": 3.4311827738005376
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 3, 3],
+    "time": 3.243495449200418
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 3, 4],
+    "time": 3.482662939600414
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 3, 5],
+    "time": 3.386293349799962
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 3, 6],
+    "time": 3.3874870743995418
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 4, 1],
+    "time": 3.430572954600211
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 4, 2],
+    "time": 3.4136555117998797
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 4, 3],
+    "time": 3.409513645998959
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 4, 4, 4],
+    "time": 2.826579776999279
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 4, 5],
+    "time": 3.304568938400189
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 4, 6],
+    "time": 3.2206294139999954
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 5, 1],
+    "time": 3.4504364314008855
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 5, 2],
+    "time": 3.4431311152009583
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 5, 3],
+    "time": 3.2364139405995958
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 5, 4],
+    "time": 3.3843219295988094
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 5, 5],
+    "time": 3.426483548599208
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 5, 6],
+    "time": 3.3976546601988957
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 6, 1],
+    "time": 3.428605020001123
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 6, 2],
+    "time": 3.4386158476001585
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 6, 3],
+    "time": 3.3843313025994575
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 6, 4],
+    "time": 3.2135943810004393
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 6, 5],
+    "time": 3.5019115707997117
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 4, 6, 6],
+    "time": 3.2312862862003384
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 5, 1, 1],
+    "time": 1.7721653950000473
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 1, 2],
+    "time": 3.100095252398751
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 1, 3],
+    "time": 3.456903533598961
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 1, 4],
+    "time": 3.3710032598006365
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 1, 5],
+    "time": 3.246469305999926
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 1, 6],
+    "time": 3.2279731163995167
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 2, 1],
+    "time": 3.107417196600727
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 5, 2, 2],
+    "time": 1.90243063339949
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 2, 3],
+    "time": 3.4574095284006034
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 2, 4],
+    "time": 3.365519411200512
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 2, 5],
+    "time": 3.2430566704009833
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 2, 6],
+    "time": 3.2277286562006338
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 3, 1],
+    "time": 3.4727946474005877
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 3, 2],
+    "time": 3.4362235261993193
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 3, 3],
+    "time": 3.2478916455991564
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 3, 4],
+    "time": 3.245487816000241
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 3, 5],
+    "time": 3.4141425549991253
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 3, 6],
+    "time": 3.4739716400006726
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 4, 1],
+    "time": 3.3737527243996737
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 4, 2],
+    "time": 3.380153486000199
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 4, 3],
+    "time": 3.3834524594007234
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 4, 4],
+    "time": 3.4148782365999066
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 4, 5],
+    "time": 3.298270387998491
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 4, 6],
+    "time": 3.4214658401986524
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 5, 1],
+    "time": 3.247673524599668
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 5, 2],
+    "time": 3.2314765753995744
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 5, 3],
+    "time": 3.404642037598387
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 5, 4],
+    "time": 3.3856204311989133
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 5, 5],
+    "time": 3.226366538998991
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 5, 6],
+    "time": 3.211209120399144
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 6, 1],
+    "time": 3.2463879510003606
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 6, 2],
+    "time": 3.2302171819996146
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 6, 3],
+    "time": 3.40235784200122
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 6, 4],
+    "time": 3.3965358469999045
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 5, 6, 5],
+    "time": 2.914799267199851
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 5, 6, 6],
+    "time": 3.4142307492002146
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 6, 1, 1],
+    "time": 2.0488964191994454
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 1, 2],
+    "time": 3.155024573000264
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 1, 3],
+    "time": 3.4820947442000034
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 1, 4],
+    "time": 3.388269082399347
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 1, 5],
+    "time": 3.2340352928003995
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 6, 1, 6],
+    "time": 2.8526561419988865
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 2, 1],
+    "time": 3.100369691399101
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 6, 2, 2],
+    "time": 1.892598774399812
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 2, 3],
+    "time": 3.4428098583994142
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 2, 4],
+    "time": 3.3976583390009183
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 2, 5],
+    "time": 3.25475440379887
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 6, 2, 6],
+    "time": 2.855431962799048
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 3, 1],
+    "time": 3.4330912334007735
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 3, 2],
+    "time": 3.441483991401037
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 3, 3],
+    "time": 3.4037002515993664
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [6, 6, 3, 4],
+    "time": 2.9740767351999238
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 3, 5],
+    "time": 3.3910872904009013
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 3, 6],
+    "time": 3.25723380299969
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 4, 1],
+    "time": 3.4369123194002897
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 4, 2],
+    "time": 3.3719464164008968
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 4, 3],
+    "time": 3.4037715317987023
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 4, 4],
+    "time": 3.2237944855987735
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 4, 5],
+    "time": 3.3156180407990177
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 4, 6],
+    "time": 3.2196228114000407
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 5, 1],
+    "time": 3.2277485992002766
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 5, 2],
+    "time": 3.2570623169995088
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 5, 3],
+    "time": 3.4014145517998258
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 5, 4],
+    "time": 3.387060977400688
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 6, 5, 5],
+    "time": 2.8267053894007406
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 5, 6],
+    "time": 3.211890620599297
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 6, 6, 1],
+    "time": 2.848335942200356
+  },
+  {
+    "result": true,
+    "turns": 4,
+    "goal": [6, 6, 6, 2],
+    "time": 2.841619538600935
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 6, 3],
+    "time": 3.2119172088001506
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 6, 4],
+    "time": 3.233320842601097
+  },
+  {
+    "result": true,
+    "turns": 5,
+    "goal": [6, 6, 6, 5],
+    "time": 3.2307931490002373
+  },
+  {
+    "result": true,
+    "turns": 3,
+    "goal": [6, 6, 6, 6],
+    "time": 2.328780957600247
+  }
+]
