@@ -126,6 +126,7 @@ class Mastermind:
         )
         array[5, unused_index] = 0  # 0 means code is not part of unused set anymore
 
+
 def run(goal, verbose):
     # initialize array with all possible combinations and information if part of solution set and information if part of unused set
     thing = np.transpose(list(product(colors, repeat=4)))
@@ -139,9 +140,9 @@ def run(goal, verbose):
     # initial guess
     combo = np.array([1, 1, 2, 2])
     if verbose:
-        line = '|'.join(str(x).center(12) for x in ["Turn","Guess","Outcome"])
+        line = "|".join(str(x).center(12) for x in ["Turn", "Guess", "Outcome"])
         print(f"\n{line}")
-        print('-' * (len(line) + 5))
+        print("-" * (len(line) + 5))
 
     # start the turn clock, check for a win after each round
     while game.turn_counter < 12 and not game.win:
@@ -149,12 +150,12 @@ def run(goal, verbose):
         # check if the guess is the valid format
         # don't uptick the turn counter for an invalid format
         if len(combo) != 4 or not set(combo).issubset(game.colors):
-            raise (
-                "Something went wrong, I made an invalid guess"
-            )
+            raise ("Something went wrong, I made an invalid guess")
         guess = game.guess(combo, game.goal)
         if verbose:
-            print('|'.join(str(x).center(12)  for x in [game.turn_counter,combo,guess]))
+            print(
+                "|".join(str(x).center(12) for x in [game.turn_counter, combo, guess])
+            )
         game.update_solutions_dataset(number_set, combo, guess)
         # calculate number of solutions in the solution data set:
         possible_solutions = np.count_nonzero(number_set[4])
@@ -193,7 +194,7 @@ def cli():
     help="Print verbose output of each round",
     type=click.BOOL,
 )
-def test(file, time,verbose):
+def test(file, time, verbose):
     """This command plays a game with the AI for every possible combination.
         If you want to also check the time it takes for a game to be played you can enable the --time=True flag
     """
@@ -210,12 +211,12 @@ def test(file, time,verbose):
                     timing.append(end - start)
             if time:
                 start = timer()
-                res = run(goal,verbose)
+                res = run(goal, verbose)
                 end = timer()
                 timing.append(end - start)
                 res["time"] = np.mean(timing)
             else:
-                res = run(goal,verbose)
+                res = run(goal, verbose)
             file.write(json.dumps(res))
             file.write(",\n")
     file.write("]")
@@ -229,8 +230,10 @@ def test(file, time,verbose):
     type=click.BOOL,
 )
 def play(verbose):
-    """This command plays a game with the AI
-        You can enable verbose mode by using the --verbose=True flag
+    """
+    This command plays a game with the AI.
+
+    You can enable verbose mode by using the --verbose=True flag
     """
     # click.echo("Dropped the database")
     res = ""
