@@ -187,7 +187,13 @@ def cli():
     type=click.File(mode="a"),
 )
 @click.option("--time", default=False, help="Time each game", type=click.BOOL)
-def test(file, time):
+@click.option(
+    "--verbose",
+    default=False,
+    help="Print verbose output of each round",
+    type=click.BOOL,
+)
+def test(file, time,verbose):
     """This command plays a game with the AI for every possible combination.
         If you want to also check the time it takes for a game to be played you can enable the --time=True flag
     """
@@ -199,17 +205,17 @@ def test(file, time):
             if time:
                 for i in range(4):
                     start = timer()
-                    run(goal)
+                    run(goal, verbose)
                     end = timer()
                     timing.append(end - start)
             if time:
                 start = timer()
-                res = run(goal)
+                res = run(goal,verbose)
                 end = timer()
                 timing.append(end - start)
                 res["time"] = np.mean(timing)
             else:
-                res = run(goal)
+                res = run(goal,verbose)
             file.write(json.dumps(res))
             file.write(",\n")
     file.write("]")
