@@ -170,9 +170,8 @@ def run(goal, verbose):
     return {"result": game.win, "turns": game.turn_counter, "goal": goal}
 
 
-# TODO: Implement a way for a user to play as both players
-# TODO: Plot all the things
-# TODO: FINISH THE REPORT!!!!
+def singular_or_plural(param, text):
+    return f"{param} {text if param == 1 else text+'s'}"
 
 
 @click.group()
@@ -198,7 +197,8 @@ def test(file, time, verbose):
     """This command plays a game with the AI for every possible combination.
         If you want to also check the time it takes for a game to be played you can enable the --time=True flag
     """
-    click.echo("Starting the test")
+    results = {"wins": 0, "loses": 0, "turns": [], "timings": []}
+    click.echo("  Starting the test")
     file.write("[")
     with click.progressbar(list(product(colors, repeat=4))) as bar:
         for goal in bar:
@@ -209,7 +209,6 @@ def test(file, time, verbose):
                     run(goal, verbose)
                     end = timer()
                     timing.append(end - start)
-            if time:
                 start = timer()
                 res = run(goal, verbose)
                 end = timer()
@@ -219,7 +218,21 @@ def test(file, time, verbose):
                 res = run(goal, verbose)
             file.write(json.dumps(res))
             file.write(",\n")
+            results["wins" if res["result"] else "loses"] += 1
+            results["turns"].append(res["turns"])
+            if timing:
+                results["timings"].append(res["time"])
     file.write("]")
+    click.echo(
+        f"""\n  Here are the results:
+  I won {singular_or_plural(results['wins'], 'time')}
+  I lost {singular_or_plural(results['loses'], 'time')}
+  The average turn took {np.mean(results['turns'])} moves"""
+    )
+    if time:
+        click.echo(
+        f"  The average time was {np.mean(results['timings'])} seconds \n"
+    )
 
 
 @cli.command()
@@ -257,7 +270,7 @@ def play(verbose):
         break
     results = run(res, verbose)
     click.echo(
-        f"I {'won' if results['result'] else 'lost'} this game after {results['turns']} {'turn' if results['turns'] == 1 else 'turns'}"
+        f"I {'won' if results['result'] else 'lost'} this game after {singular_or_plural(results['turns'],'turn')}"
     )
 
 
