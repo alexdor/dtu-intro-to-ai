@@ -3,6 +3,7 @@ from random import choices, randint
 import json
 import numpy as np
 
+from timeit import default_timer as timer
 space_size = 1296
 colors = [1, 2, 3, 4, 5, 6]
 # make the game
@@ -180,7 +181,18 @@ def main():
     with open("test.txt", "a") as file:
         file.write("[")
         for goal in list(itertools.product(colors, repeat=4)):
-            file.write(json.dumps(run(goal)))
+            time = []
+            for i in range(4):
+                start = timer()
+                run(goal)
+                end = timer()
+                time.append(end-start)
+            start = timer()
+            res = run(goal)
+            end = timer()
+            time.append(end-start)
+            res["time"] = np.mean(time)
+            file.write(json.dumps(res))
             file.write(",\n")
         file.write("]")
 
