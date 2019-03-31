@@ -141,8 +141,8 @@ def run(goal, verbose):
     combo = np.array([1, 1, 2, 2])
     if verbose:
         line = "|".join(str(x).center(12) for x in ["Turn", "Guess", "Outcome"])
-        print(f"\n{line}")
-        print("-" * (len(line) + 5))
+        click.echo(f"\n{line}")
+        click.echo("-" * (len(line) + 5))
 
     # start the turn clock, check for a win after each round
     while game.turn_counter < 12 and not game.win:
@@ -153,7 +153,7 @@ def run(goal, verbose):
             raise ("Something went wrong, I made an invalid guess")
         guess = game.guess(combo, game.goal)
         if verbose:
-            print(
+            click.echo(
                 "|".join(str(x).center(12) for x in [game.turn_counter, combo, guess])
             )
         game.update_solutions_dataset(number_set, combo, guess)
@@ -166,7 +166,7 @@ def run(goal, verbose):
         else:
             combo = game.do_minimax(number_set)
     if verbose:
-        print("\n")
+        click.echo("\n")
     return {"result": game.win, "turns": game.turn_counter, "goal": goal}
 
 
@@ -248,7 +248,6 @@ def play(verbose):
 
     You can enable verbose mode by using the --verbose=True flag
     """
-    # click.echo("Dropped the database")
     res = ""
     while True:
         try:
