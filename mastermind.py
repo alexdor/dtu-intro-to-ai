@@ -2,7 +2,7 @@ import json
 from functools import reduce
 from itertools import permutations, product, repeat
 from operator import iconcat
-from random import choices, randint
+from random import choices
 from timeit import default_timer as timer
 
 import click
@@ -10,6 +10,11 @@ import numpy as np
 
 space_size = 1296
 colors = [1, 2, 3, 4, 5, 6]
+
+# Helper function
+def singular_or_plural(param, text):
+    return f"{param} {text if param == 1 else text+'s'}"
+
 # make the game
 class Mastermind:
     # initialize the variables
@@ -38,7 +43,7 @@ class Mastermind:
         return correct_colors - black, black
 
     # calculate the black/white pegs for a guess
-    def guess(self, combination, goal):
+    def validate_guess(self, combination, goal):
         white, black = self.get_white_and_black(combination, goal)
         answer = []
         answer += repeat("B", black)
@@ -50,7 +55,7 @@ class Mastermind:
             self.win = True
         return answer
 
-    # GAME SOLVING FUNCTIONS STARTING HERE
+    # Game solving function starts here
     def do_minimax(self, array):
 
         solution_maxes = np.full([self.space_size], self.space_size + 1, dtype=int)
@@ -101,7 +106,7 @@ class Mastermind:
         return array[0:4, np.argmin(solution_maxes)]
 
     # update possible solution dataset array based on code and code response (ground_truth)
-    def update_solutions_dataset(self, array, tested_code, ground_truth):
+    def update_datasets(self, array, tested_code, ground_truth):
         # read number of black and white pegs
         ground_truth_white = ground_truth.count("W")
         ground_truth_black = ground_truth.count("B")
@@ -151,12 +156,12 @@ def run(goal, verbose):
         # don't uptick the turn counter for an invalid format
         if len(combo) != 4 or not set(combo).issubset(game.colors):
             raise ("Something went wrong, I made an invalid guess")
-        guess = game.guess(combo, game.goal)
+        guess = game.validate_guess(combo, game.goal)
         if verbose:
             click.echo(
                 "|".join(str(x).center(12) for x in [game.turn_counter, combo, guess])
             )
-        game.update_solutions_dataset(number_set, combo, guess)
+        game.update_datasets(number_set, combo, guess)
         # calculate number of solutions in the solution data set:
         possible_solutions = np.count_nonzero(number_set[4])
 
@@ -170,9 +175,46 @@ def run(goal, verbose):
     return {"result": game.win, "turns": game.turn_counter, "goal": goal}
 
 
-def singular_or_plural(param, text):
-    return f"{param} {text if param == 1 else text+'s'}"
+def run_no_ai():
+    goal = choices(colors, k=4)
 
+    game = Mastermind(goal)
+    while game.turn_counter < 12 and not game.win:
+        users_input = np.array(get_users_input())
+        game_response = game.validate_guess(users_input,goal)
+        click.echo(f"The outcome of your guess was: {game_response} \n")
+
+
+    click.echo(
+        f"You {'won' if game.win else 'lost'} this game after {singular_or_plural(game.turn_counter,'turn')} the goal was {game.goal}"
+    )
+
+
+
+"""
+Cli commands
+"""
+def get_users_input():
+    res = ""
+    while True:
+        try:
+            res = click.prompt("Please type 4 numbers from 1 till 6 (e.g '1 2 3 4')")
+            res = res.split(" ")
+            res = [r.split(",") for r in res if r]
+            res = reduce(iconcat, res, [])
+            res = [int(r) for r in res]
+        except ValueError:
+            click.echo(
+                "Invalid guess. Make sure you're guessing four items from the 1 till 6 (e.g. '5 5 4 3')"
+            )
+            continue
+        if len(res) != 4 or not set(res).issubset(colors):
+            click.echo(
+                "Invalid guess. Make sure you're guessing four items from the 1 till 6 (e.g. '5 5 4 3')"
+            )
+            continue
+        break
+    return res
 
 @click.group()
 def cli():
@@ -230,9 +272,7 @@ def test(file, time, verbose):
   The average turn took {np.mean(results['turns'])} moves"""
     )
     if time:
-        click.echo(
-        f"  The average time was {np.mean(results['timings'])} seconds \n"
-    )
+        click.echo(f"  The average time was {np.mean(results['timings'])} seconds \n")
 
 
 @cli.command()
@@ -242,32 +282,25 @@ def test(file, time, verbose):
     help="Print verbose output of each round",
     type=click.BOOL,
 )
-def play(verbose):
+@click.option(
+    "--no-ai",
+    default=False,
+    help="Play a game without the AI guessing",
+    type=click.BOOL,
+)
+def play(verbose, no_ai):
     """
     This command plays a game with the AI.
 
     You can enable verbose mode by using the --verbose=True flag
     """
-    res = ""
-    while True:
-        try:
-            res = click.prompt("Please type 4 numbers from 1 till 6")
-            res = res.split(" ")
-            res = [r.split(",") for r in res if r]
-            res = reduce(iconcat, res, [])
-            res = [int(r) for r in res]
-        except ValueError:
-            click.echo(
-                "Invalid guess. Make sure you're guessing four items from the 1 till 6 (e.g. '5 5 4 3')"
-            )
-            continue
-        if len(res) != 4 or not set(res).issubset(colors):
-            click.echo(
-                "Invalid guess. Make sure you're guessing four items from the 1 till 6 (e.g. '5 5 4 3')"
-            )
-            continue
-        break
-    results = run(res, verbose)
+    if verbose and no_ai:
+        click.echo("Verbose option has no effect when no_ai option is selected!\n")
+    click.echo("Welcome to the mastermind game!")
+    if no_ai:
+        return run_no_ai()
+    users_input = get_users_input()
+    results = run(users_input, verbose)
     click.echo(
         f"I {'won' if results['result'] else 'lost'} this game after {singular_or_plural(results['turns'],'turn')}"
     )
