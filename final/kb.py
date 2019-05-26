@@ -16,6 +16,8 @@ not_inputs = [
     # "p|q, p<->q, (p|!q)&q, (r|s)->(p|q), !r&s",
 ]
 
+symbols = ["&", "|", "!", "<->", "->", "(", ")", ",", " "]
+
 
 class KB(object):
     kb_show = set()
@@ -185,15 +187,18 @@ class KB(object):
             print("TRUTH TABLE:", "\n", truth_table, "\n")
             print("VALUES: ", kb_table, "\n")
 
-        print("Current Knowledge Base:", set(kb_show_table))
+        print("Current knowledge base:", set(kb_show_table))
         result = any(sum(row) == len(row) for row in kb_table)
         print(
-            "Knowledge Base is satisfiable"
+            "Knowledge base is satisfiable"
             if result
-            else "Knowledge Base  isn't satisfiable",
+            else "Knowledge base isn't satisfiable",
             "\n",
         )
         return result
+
+    def contraction(self,):
+        pass
 
     def reset(self):
         self = KB(self.debug)
@@ -201,6 +206,29 @@ class KB(object):
         self.kb_tell.clear()
         self.base.clear()
         self.column_mapping = {}
+
+
+def cleanup_input(tmp, debug):
+    if str(tmp).lower() in ["quit", "exit", "break"]:
+        click.echo("\nExiting program")
+        return True, False, ""
+    special_chars = tmp.translate(
+        {
+            ord(c): " "
+            for c in "asdfghjklzxcvbnmqwertyuiopASDFGHJKLQWERTYUIOPZXCVBNM"
+        }
+    )
+    if debug:
+        print(special_chars)
+    if any(char not in symbols for char in special_chars.split()):
+        click.echo("\nYou have added an unsupported character")
+        return False, True, tmp
+    while True:
+        if tmp[-1:] == ",":
+            tmp = tmp[:-1]
+        else:
+            click.echo()
+            return False, False, tmp
 
 
 @click.command()
@@ -211,14 +239,24 @@ def cli(debug):
     while True:
         try:
             tmp = click.prompt("Enter a new clause")
-            if str(tmp).lower() in ["quit", "exit", "break"]:
-                click.echo("\nExiting program")
+            should_break, should_con, output = cleanup_input(tmp, debug)
+            if should_break:
                 break
+            if should_con:
+                continue
+            tmp = output
             res.append(tmp)
-            click.echo()
-            kb.run(",".join(res))
-        except NameError as err:
-            click.echo("Please use 1 character long literals")
+            if kb.run(",".join(res)):
+                continue
+            last_el = res.pop()
+            kb.reset()
+            kb.contraction(res, last_el)
+        except (NameError, SyntaxError) as err:
+            click.echo(
+                "Please use 1 character long literals"
+                if err == NameError
+                else "Your syntax is invalid, please try again"
+            )
             res.pop()
             kb.reset()
             continue
