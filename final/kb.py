@@ -165,7 +165,11 @@ class KB(object):
         )
 
         kb_table = [
-            [el for el in row[: base_len + 1] if el in literals]
+            [
+                el
+                for i, el in enumerate(row[: base_len + 1])
+                if base_list[i - 1] in literals
+            ]
             + row[base_len:]
             for row in truth_table.table_values
         ]
