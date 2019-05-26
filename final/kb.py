@@ -20,6 +20,8 @@ kb_show = set()
 kb_tell = set()
 base = set()
 
+debug = False
+
 
 def and_func(string_lits):
     str = string_lits
@@ -161,14 +163,11 @@ def parse(input):
             print(f"ERROR: {j}")
 
 
-def create_truth_table(base, kb_tell):
-    t = truths.Truths(list(base), phrases=[s for s in kb_tell if s not in base])
+# def create_truth_table(base, kb_tell):
+#     t = truths.Truths(list(base), phrases=[s for s in kb_tell if s not in base])
 
-    truth_table = []
-    for conditions_set in t.base_conditions:
-        truth_table.append(t.calculate(*conditions_set))
 
-    return truth_table
+#     return truth_table
 
 
 args = possible_inputs + not_inputs
@@ -187,30 +186,24 @@ print(literals)
 print("\nKB_SHOW:")
 print(kb_show)
 
-# print("\nKB_TELL:")
-# print(kb_tell)
 
-
-truth_table = create_truth_table(base, kb_tell)
+truth_table = truths.Truths(
+    list(base),
+    phrases=[s for s in kb_tell if s not in base],
+    mapping=column_mapping,
+    debug=debug,
+)
 
 
 base_len = len(base)
 
 
-print(
-    truths.Truths(
-        list(base),
-        phrases=[s for s in kb_tell if s not in base],
-        mapping=column_mapping,
-    )
-)
-
-
 kb_table = [
     [el for el in row[:base_len] if el in literals] + row[base_len - 1 :]
-    for row in truth_table
+    for row in truth_table.table_values
 ]
 
+print(truth_table)
 
 if any(sum(row) == len(row) for row in kb_table):
     print("Satisfiable kb")
