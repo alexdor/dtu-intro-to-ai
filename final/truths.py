@@ -8,12 +8,18 @@ class Gob(object):
 
 
 class Truths(object):
-    def __init__(self, base=None, phrases=None, ints=True):
+    mapping = {}
+
+    def __init__(self, base=None, phrases=None, ints=True, mapping={}):
         if not base:
             raise Exception("Base items are required")
         self.base = base
         self.phrases = phrases or []
         self.ints = ints
+        self.mapping = mapping
+        self.phrases_transformed = [
+            mapping[key] if key in mapping else key for key in phrases
+        ]
 
         # generate the sets of booleans for the bases
         self.base_conditions = list(
@@ -45,7 +51,8 @@ class Truths(object):
             return row
 
     def __str__(self):
-        t = PrettyTable(self.base + self.phrases)
+        t = PrettyTable(self.base + self.phrases_transformed)
+        t.add_row(self.base + self.phrases)
         for conditions_set in self.base_conditions:
             t.add_row(self.calculate(*conditions_set))
         return str(t)

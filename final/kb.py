@@ -2,18 +2,19 @@ import truths
 
 
 possible_inputs = [
-    # "p, p & q, p-> q, r | p",
+    # "    p, p & q, p-> q, r | p",
     # "p & (!q), p -> !q, r, (r|!r)->p",
     # "!p->q, q->p, p->(r&s), (!p&!r)->s",
-    # "r|!s, p, !q, p|q, (p|q)&!q&r&s, ((p|q)&!q)->p",
-    # "p|q, p<=>q, (p|!q)&q, (r|s)->(p|q), !r|s",
+    "r|!s, p, !q, p|q, (p|q)&!q&r&s, (!q&(p|q))->p",
+    # "p|q, p<->q, (p|!q)&q, (r|s)->(p|q), !r|s"
 ]
 not_inputs = [
-    "p, p-> r, !r, !q -> p, q",
+    # "p, p-> r, !r, !q -> p, q",
     # "p&(!q&(!p)),q->(r | !q),r",
     # "!p->q, q->p, p->(r&s), (p&r)->!s",
-    # "p|q, p<=>q, (p|!q)&q, (r|s)->(p|q), !r&s",
+    # "p|q, p<->q, (p|!q)&q, (r|s)->(p|q), !r&s",
 ]
+
 
 kb_show = set()
 kb_tell = set()
@@ -36,12 +37,13 @@ def not_func(string_lits):
 
 
 def imp_func(string_lits):
-    show = "|".join(
-        [
-            f"!{split}" if not (index % 2) else split
-            for index, split in enumerate(string_lits[0].split("->"))
-        ]
-    )
+    show = string_lits[0]
+    # "|".join(
+    #     [
+    #         f"!{split}" if not (index % 2) else split
+    #         for index, split in enumerate(string_lits[0].split("->"))
+    #     ]
+    # )
     executable = " or ".join(
         [
             f" not {split}" if not (index % 2) else split
@@ -52,8 +54,9 @@ def imp_func(string_lits):
 
 
 def bi_dir_func(string_lits):
-    parts = string_lits[0].split("<=>")
-    show = f"(!{parts[0]} | {parts[1]}) & (!{parts[1]} | {parts[0]})"
+    parts = string_lits[0].split("<->")
+    show = string_lits[0]
+    # f"(!{parts[0]} | {parts[1]}) & (!{parts[1]} | {parts[0]})"
     ex = f"(not {parts[0]} or {parts[1]}) and (not {parts[1]} or {parts[0]})"
     return show, ex
 
@@ -71,8 +74,8 @@ mapping = {
     "&": and_func,
     "|": or_func,
     "!": not_func,
+    "<->": bi_dir_func,
     "->": imp_func,
-    "<=>": bi_dir_func,
     "lit": lit_func,
 }
 
@@ -130,8 +133,8 @@ def parse_parenthesis(res, j):
         for substring in existing_keys.values()
     ):
         for key, value in existing_keys.items():
-            prop[0] = prop[0].replace(value, key)
-            prop[1] = prop[1].replace(value, mapping_dict[key])
+            prop[0] = prop[0].replace(value, f"({key})")
+            prop[1] = prop[1].replace(value, f"({mapping_dict[key]})")
     return prop
 
 
@@ -153,7 +156,7 @@ def parse(input):
             tell = tell.replace("not not", "")
             tell = " ".join(tell.split())
             kb_tell.add(tell.strip())
-            column_mapping[show] = tell
+            column_mapping[tell] = show
         else:
             print(f"ERROR: {j}")
 
@@ -168,11 +171,19 @@ def create_truth_table(base, kb_tell):
     return truth_table
 
 
-# print("POSSIBLE INPUTS")
-for i in possible_inputs + not_inputs:
+args = possible_inputs + not_inputs
+
+for i in args:
     parse("".join(i.split()))
 
+print(args[0])
+literals = [
+    "".join(lit.split())
+    for lit in args[0].split(",")
+    if len("".join(lit.split())) == 1
+]
 
+print(literals)
 print("\nKB_SHOW:")
 print(kb_show)
 
@@ -182,4 +193,26 @@ print(kb_show)
 
 truth_table = create_truth_table(base, kb_tell)
 
-print(truths.Truths(list(base), phrases=[s for s in kb_tell if s not in base]))
+
+base_len = len(base)
+
+
+print(
+    truths.Truths(
+        list(base),
+        phrases=[s for s in kb_tell if s not in base],
+        mapping=column_mapping,
+    )
+)
+
+
+kb_table = [
+    [el for el in row[:base_len] if el in literals] + row[base_len - 1 :]
+    for row in truth_table
+]
+
+
+if any(sum(row) == len(row) for row in kb_table):
+    print("Satisfiable kb")
+else:
+    print("Not a satisfiable kb")
