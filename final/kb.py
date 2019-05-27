@@ -146,11 +146,11 @@ class KB(object):
             else:
                 print(f"ERROR: {j}")
 
-    def run(self, arg):
-        self.parse("".join(arg.split()))
+    def get_truth_table(self, clauses):
+        self.parse("".join(clauses.split()))
         literals = [
             "".join(lit.split())
-            for lit in arg.split(",")
+            for lit in clauses.split(",")
             if len("".join(lit.split())) == 1
         ]
 
@@ -169,8 +169,8 @@ class KB(object):
         kb_table = [
             [
                 el
-                for i, el in enumerate(row[: base_len + 1])
-                if base_list[i - 1] in literals
+                for i, el in enumerate(row[:base_len])
+                if base_list[i] in literals
             ]
             + row[base_len:]
             for row in truth_table.table_values
@@ -181,9 +181,17 @@ class KB(object):
             for key in phrases_list
         ]
 
+        return literals, truth_table, kb_table, kb_show_table
+
+    def run(self, clause_list):
+        arg = ",".join(clause_list)
+        literals, truth_table, kb_table, kb_show_table = self.get_truth_table(
+            arg
+        )
+
         if self.debug:
             print("INPUT:", "\n", arg, "\n")
-            print("LITERALS: ", literals, "\n")
+            print("USER ENTERED LITERALS: ", literals, "\n")
             print("TRUTH TABLE:", "\n", truth_table, "\n")
             print("VALUES: ", kb_table, "\n")
 
@@ -197,8 +205,32 @@ class KB(object):
         )
         return result
 
-    def contraction(self,):
-        pass
+    def contraction(self, clauses, last_clause):
+        self.reset()
+        literals, truth_table, kb_table, kb_show_table = self.get_truth_table(
+            ",".join(clauses + [last_clause])
+        )
+        index = kb_show_table.index(last_clause)
+        possible_spaces = [row for row in kb_table if row[index]]
+
+        if len(possible_spaces) == 0:
+            print(
+                "There was an issue with you last clause so we had to drop it from the knowledge base"
+            )
+            return clauses
+
+        if len(possible_spaces) == 1:
+            return self.return_clean_kb(kb_show_table, possible_spaces[0])
+
+        index = possible_spaces.index(max(possible_spaces))
+        return self.return_clean_kb(kb_show_table, possible_spaces[index])
+
+    def return_clean_kb(self, kb_show_table, possible_spaces):
+        return [
+            clause
+            for i, clause in enumerate(kb_show_table)
+            if possible_spaces[i]
+        ]
 
     def reset(self):
         self = KB(self.debug)
@@ -239,18 +271,28 @@ def cli(debug):
     while True:
         try:
             tmp = click.prompt("Enter a new clause")
+            tmp = ", ".join([val for val in tmp.split(",")])
             should_break, should_con, output = cleanup_input(tmp, debug)
             if should_break:
                 break
             if should_con:
                 continue
-            tmp = output
-            res.append(tmp)
-            if kb.run(",".join(res)):
+            tmp = [i.strip() for i in output.split(",")]
+            res += tmp
+            if kb.run(res):
                 continue
             last_el = res.pop()
+            res = list(set(res))
+            tmp = kb.contraction(res, last_el)
             kb.reset()
-            kb.contraction(res, last_el)
+            deleted_clauses = set([i for i in res + [last_el] if i not in tmp])
+            print(
+                "The following clauses were dropped in order to have a satisfiable knowledge base",
+                deleted_clauses,
+                "\n",
+            )
+            res = tmp
+            print("Updated knowledge base:", set(res), "\n")
         except (NameError, SyntaxError) as err:
             click.echo(
                 "Please use 1 character long literals"

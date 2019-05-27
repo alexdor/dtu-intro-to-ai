@@ -3,7 +3,7 @@ from prettytable import PrettyTable
 import re
 
 
-class Gob(object):
+class DummyClass(object):
     pass
 
 
@@ -40,19 +40,19 @@ class Truths(object):
 
     def calculate(self, *args):
         # store bases in an object context
-        g = Gob()
+        c = DummyClass()
         for a, b in zip(self.base, args):
-            setattr(g, a, b)
+            setattr(c, a, b)
 
         # add object context to any base variables in self.phrases
         # then evaluate each
         eval_phrases = []
         for item in self.phrases:
-            item = self.p.sub(r"g.\1", item)
+            item = self.p.sub(r"c.\1", item)
             eval_phrases.append(eval(item))
 
         # add the bases and evaluated phrases to create a single row
-        row = [getattr(g, b) for b in self.base] + eval_phrases
+        row = [getattr(c, b) for b in self.base] + eval_phrases
         if self.ints:
             return [int(item) for item in row]
         else:
@@ -60,8 +60,8 @@ class Truths(object):
 
     def __str__(self):
         t = PrettyTable(self.base + self.phrases_transformed)
-        if self.debug:
-            t.add_row(self.base + self.phrases)
+        # if self.debug:
+        #     t.add_row(self.base + self.phrases)
         for conditions_set in self.table_values:
             t.add_row(conditions_set)
         return str(t)
