@@ -1,20 +1,6 @@
 import click
 import truths
 
-possible_inputs = [
-    # "    p, p & q, p-> q, r | p",
-    # "p & (!q), p -> !q, r, (r|!r)->p",
-    # "!p->q, q->p, p->(r&s), (!p&!r)->s",
-    "r|!s, p, !q, p|q, (p|q)&!q&r&s, (!q&(p|q))->p",
-    # "p|q, p<->q, (p|!q)&q, (r|s)->(p|q), !r|s"
-]
-not_inputs = [
-    # "p, p-> r, !r, !q -> p, q",
-    # "p&(!q&(!p)),q->(r | !q),r",
-    # "!p->q, q->p, p->(r&s), (p&r)->!s",
-    # "p|q, p<->q, (p|!q)&q, (r|s)->(p|q), !r&s",
-]
-
 symbols = ["&", "|", "!", "<->", "->", "(", ")", ",", " ", ""]
 
 
