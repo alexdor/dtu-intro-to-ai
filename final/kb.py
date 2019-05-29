@@ -1,6 +1,5 @@
-import truths
 import click
-
+import truths
 
 possible_inputs = [
     # "    p, p & q, p-> q, r | p",
@@ -252,7 +251,10 @@ def cleanup_input(tmp, debug):
     )
     if debug:
         print(special_chars)
-    if any(char not in symbols for char in special_chars.split()):
+    if len(special_chars.strip()) > 0 and not any(
+        ((char in symbols) or any(c in symbols for c in char))
+        for char in special_chars.split()
+    ):
         click.echo("\nYou have added an unsupported character")
         return False, True, tmp
     while True:
@@ -306,4 +308,3 @@ def cli(debug):
 
 if __name__ == "__main__":
     cli()
-
