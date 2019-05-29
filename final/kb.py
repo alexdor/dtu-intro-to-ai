@@ -15,7 +15,7 @@ not_inputs = [
     # "p|q, p<->q, (p|!q)&q, (r|s)->(p|q), !r&s",
 ]
 
-symbols = ["&", "|", "!", "<->", "->", "(", ")", ",", " "]
+symbols = ["&", "|", "!", "<->", "->", "(", ")", ",", " ", ""]
 
 
 class KB(object):
@@ -122,8 +122,8 @@ class KB(object):
             for substring in existing_keys.values()
         ):
             for key, value in existing_keys.items():
-                prop[0] = prop[0].replace(value, f"({key})")
-                prop[1] = prop[1].replace(value, f"({mapping_dict[key]})")
+                prop[0] = prop[0].replace(value, key)
+                prop[1] = prop[1].replace(value, mapping_dict[key])
         return prop
 
     def parse(self, input):
@@ -302,6 +302,7 @@ def cli(debug):
                 else "Your syntax is invalid, please try again"
             )
             res.pop()
+            res = [v for v in res if v not in tmp]
             kb.reset()
             continue
 
