@@ -4,7 +4,7 @@ README
 Install Dependencies
 In order to set up the dependencies of the program, the user has to do the following steps:
   1.  Unzip the folder that includes the program.
-  2.  Install python3.7 ( https://www.python.org/downloads/ ) 
+  2.  Install python3.7 ( https://www.python.org/downloads/ )
   3.  Open a terminal and navigate to the folder of the program.
   4.  Install the dependencies of the program by running `pip3 install -r requirments.txt`.
 
@@ -21,7 +21,7 @@ and = &
 implies = ->
 biconditional = <->
 
-The user can also use comma (,) to separate clauses and use parentheses to group clauses together.
+The user can also use comma (,) to separate clauses and use parentheses to group clauses together. Furthermore, only single-letter literals are supported. Any attempts to add multi-letter literals to the knowledge base will be met with an error.
 
 When the prompt “Enter a new clause:” appears, the user can enter a new statement using letters and the symbols above.  The agent will evaluate if the knowledge base is satisfiable and it will print the output of this evaluation.  If it isn’t, the agent will perform partial meet contraction to remove the conflicting clause from the knowledge base.
 
